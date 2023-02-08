@@ -6,7 +6,7 @@
   <link href="http://ygonexus.github.io/atom.xml" rel="self"/>
   
   <link href="http://ygonexus.github.io/"/>
-  <updated>2023-02-08T13:45:19.892Z</updated>
+  <updated>2023-02-08T16:00:35.666Z</updated>
   <id>http://ygonexus.github.io/</id>
   
   <author>
@@ -21,9 +21,9 @@
     <link href="http://ygonexus.github.io/FirstUrlBlogName/"/>
     <id>http://ygonexus.github.io/FirstUrlBlogName/</id>
     <published>2023-02-05T03:18:18.000Z</published>
-    <updated>2023-02-08T13:45:19.892Z</updated>
+    <updated>2023-02-08T16:00:35.666Z</updated>
     
-    <content type="html"><![CDATA[<p>El Psy Congroo ╮(╯▽╰)╭</p><p>&amp;nbsp;&amp;nbsp&amp;nbsp 空格&amp;nbsp;nbsp$~~~~~$.<br>    $~~$        还不能传图</p><figure class="highlight c#"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">public</span> <span class="keyword">void</span> <span class="title">JustTestCSStyle</span>()</span></span><br><span class="line">&#123;</span><br><span class="line">Console.WriteLine(<span class="number">233</span>);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><p>Todo:<br>    图片上传<br>    学习做个字母动画<br>    上传GIF<br>    音乐链接<br>    字体<br>    文章不显示全文<br>    文章置顶<br>    local search<br>    md渲染器   比如代码渲染,空格渲染<br>    ### Pandoc</p><p>提供更好的 Markdown 渲染，主要有两点好处：脚注、MathJax。详情参考<br>npm uninstall hexo-renderer-marked<br>npm install hexo-renderer-pandoc</p><p>npm uninstall hexo-renderer-marked<br>npm install hexo-renderer-pandoc<br>    一只live2d宠物<br>    <a href="https://tding.top/archives/7e5b094d.html">https://tding.top/archives/7e5b094d.html</a> 性能优化<br><a href="https://blog.51cto.com/u_12877374/2853807">https://blog.51cto.com/u_12877374/2853807</a> 音乐播放器<br><a href="https://tianma8023.github.io/post/hexo-embed-aplayer/">https://tianma8023.github.io/post/hexo-embed-aplayer/</a> 音乐<br><a href="https://ed521.github.io/2020/11/hexo-aplayer/">https://ed521.github.io/2020/11/hexo-aplayer/</a> 音乐<br><a href="https://easyliu-ly.github.io/2020/11/22/hexo/insert_video/">https://easyliu-ly.github.io/2020/11/22/hexo/insert_video/</a>  video</p>]]></content>
+    <content type="html"><![CDATA[<p>El Psy Congroo ╮(╯▽╰)╭</p><p>&amp;nbsp;&amp;nbsp&amp;nbsp 空格&amp;nbsp;nbsp$~~~~~$.<br>    $~~$        还不能传图</p><figure class="highlight c#"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">public</span> <span class="keyword">void</span> <span class="title">JustTestCSStyle</span>()</span></span><br><span class="line">&#123;</span><br><span class="line">Console.WriteLine(<span class="number">233</span>);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><p>Todo:<br>    图片上传<br>    学习做个字母动画<br>    上传GIF<br>    音乐链接<br>    字体<br>    文章不显示全文<br>    文章置顶<br>    local search<br>    md渲染器   比如代码渲染,空格渲染<br>    ### Pandoc</p><p>提供更好的 Markdown 渲染，主要有两点好处：脚注、MathJax。详情参考<br>npm uninstall hexo-renderer-marked<br>npm install hexo-renderer-pandoc</p><p>前面<img src="/.io//1.png" class width="233">这个图片<br>前面![p2]{1.PNG}后<br>！<a href="1.PNG">picture1</a><br>11<img src="/.io//1.PNG" alt="picture1">222<br>npm uninstall hexo-renderer-marked<br>npm install hexo-renderer-pandoc<br>    一只live2d宠物<br>    <a href="https://tding.top/archives/7e5b094d.html">https://tding.top/archives/7e5b094d.html</a> 性能优化<br><a href="https://blog.51cto.com/u_12877374/2853807">https://blog.51cto.com/u_12877374/2853807</a> 音乐播放器<br><a href="https://tianma8023.github.io/post/hexo-embed-aplayer/">https://tianma8023.github.io/post/hexo-embed-aplayer/</a> 音乐<br><a href="https://ed521.github.io/2020/11/hexo-aplayer/">https://ed521.github.io/2020/11/hexo-aplayer/</a> 音乐<br><a href="https://easyliu-ly.github.io/2020/11/22/hexo/insert_video/">https://easyliu-ly.github.io/2020/11/22/hexo/insert_video/</a>  video</p>]]></content>
     
     
       
