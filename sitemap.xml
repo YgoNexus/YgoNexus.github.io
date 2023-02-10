@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://ygonexus.github.io/FirstUrlBlog/</loc>
+    
+    <lastmod>2023-02-10</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>http://ygonexus.github.io/FirstUrlBlogName/</loc>
     
     <lastmod>2023-02-10</lastmod>
@@ -18,6 +27,13 @@
     <priority>1.0</priority>
   </url>
 
+  
+  <url>
+    <loc>http://ygonexus.github.io/tags/Hexo-NexT/</loc>
+    <lastmod>2023-02-10</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
   
   <url>
     <loc>http://ygonexus.github.io/tags/%E6%97%A5%E5%B8%B8/</loc>

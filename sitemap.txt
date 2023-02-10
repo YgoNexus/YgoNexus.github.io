@@ -1,3 +1,5 @@
+http://ygonexus.github.io/FirstUrlBlog/
 http://ygonexus.github.io/FirstUrlBlogName/
 http://ygonexus.github.io/
+http://ygonexus.github.io/tags/Hexo-NexT/
 http://ygonexus.github.io/tags/%E6%97%A5%E5%B8%B8/
