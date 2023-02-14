@@ -6,7 +6,7 @@
   <link href="http://ygonexus.github.io/atom.xml" rel="self"/>
   
   <link href="http://ygonexus.github.io/"/>
-  <updated>2023-02-10T15:30:05.820Z</updated>
+  <updated>2023-02-14T16:10:55.739Z</updated>
   <id>http://ygonexus.github.io/</id>
   
   <author>
@@ -17,21 +17,40 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>2月10</title>
-    <link href="http://ygonexus.github.io/FirstUrlBlogName/"/>
-    <id>http://ygonexus.github.io/FirstUrlBlogName/</id>
-    <published>2023-02-10T03:18:18.000Z</published>
-    <updated>2023-02-10T15:30:05.820Z</updated>
+    <title>西溪湿地</title>
+    <link href="http://ygonexus.github.io/20230212/"/>
+    <id>http://ygonexus.github.io/20230212/</id>
+    <published>2023-02-12T03:18:18.000Z</published>
+    <updated>2023-02-14T16:10:55.739Z</updated>
     
-    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script>]]></content>
-    
-    
-    <summary type="html">啦啦啦</summary>
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><div class="group-picture"><div class="group-picture-row"><div class="group-picture-column"><img src="/20230212/IMG_20230212_153834.jpg" class=""></div><div class="group-picture-column"><img src="/20230212/IMG_20230212_155016.jpg" class=""></div><div class="group-picture-column"><img src="/20230212/IMG_20230212_155022.jpg" class=""></div></div><div class="group-picture-row"><div class="group-picture-column"><img src="/20230212/IMG_20230212_155738.jpg" class=""></div><div class="group-picture-column"><img src="/20230212/IMG_20230212_160322.jpg" class=""></div><div class="group-picture-column"><img src="/20230212/IMG_20230212_160326.jpg" class=""></div></div><div class="group-picture-row"><div class="group-picture-column"><img src="/20230212/IMG_20230212_160402.jpg" class=""></div><div class="group-picture-column"><img src="/20230212/IMG_20230212_160421.jpg" class=""></div><div class="group-picture-column"><img src="/20230212/IMG_20230212_160452.jpg" class=""></div></div><div class="group-picture-row"><div class="group-picture-column"><img src="/20230212/IMG_20230212_160607.jpg" class=""></div><div class="group-picture-column"><img src="/20230212/IMG_20230212_160905.jpg" class=""></div><div class="group-picture-column"><img src="/20230212/IMG_20230212_163137.jpg" class=""></div></div><div class="group-picture-row"><div class="group-picture-column"><img src="/20230212/IMG_20230212_163233.jpg" class=""></div><div class="group-picture-column"><img src="/20230212/IMG_20230212_163236.jpg" class=""></div><div class="group-picture-column"><img src="/20230212/IMG_20230212_163311.jpg" class=""></div></div><div class="group-picture-row"><div class="group-picture-column"><img src="/20230212/IMG_20230212_180655.jpg" class=""></div></div></div>]]></content>
     
     
+    <summary type="html">难得的周日聚会</summary>
     
     
-    <category term="日常" scheme="http://ygonexus.github.io/tags/%E6%97%A5%E5%B8%B8/"/>
+    
+    
+    <category term="日常, 杭州" scheme="http://ygonexus.github.io/tags/%E6%97%A5%E5%B8%B8-%E6%9D%AD%E5%B7%9E/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>拉喜街</title>
+    <link href="http://ygonexus.github.io/20230211/"/>
+    <id>http://ygonexus.github.io/20230211/</id>
+    <published>2023-02-11T03:18:18.000Z</published>
+    <updated>2023-02-14T16:15:04.293Z</updated>
+    
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>人山人海. 拘谨到没拿出手机拍.  还有就是那碗热干面真的好辣 XD</p><div class="group-picture"><div class="group-picture-row"><div class="group-picture-column"><img src="/20230211/20230215000508.jpg" class=""></div><div class="group-picture-column"><img src="/20230211/20230215000537.jpg" class=""></div></div></div>]]></content>
+    
+    
+    <summary type="html">辣辣辣</summary>
+    
+    
+    
+    
+    <category term="日常, 杭州" scheme="http://ygonexus.github.io/tags/%E6%97%A5%E5%B8%B8-%E6%9D%AD%E5%B7%9E/"/>
     
   </entry>
   
@@ -40,17 +59,74 @@
     <link href="http://ygonexus.github.io/FirstUrlBlog/"/>
     <id>http://ygonexus.github.io/FirstUrlBlog/</id>
     <published>2023-02-05T03:18:18.000Z</published>
-    <updated>2023-02-10T15:35:43.726Z</updated>
+    <updated>2023-02-14T16:17:19.019Z</updated>
     
-    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>El Psy Congroo ╮(╯▽╰)╭</p><span id="more"></span><p>&amp;nbsp;&amp;nbsp&amp;nbsp 空格&amp;nbsp;nbsp$~~~~~$.</p><figure class="highlight c#"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">public</span> <span class="keyword">void</span> <span class="title">JustTestCSStyle</span>()</span></span><br><span class="line">&#123;</span><br><span class="line">Console.WriteLine(<span class="number">233</span>);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><p>Todo:<br>    学习做个字母动画<br>    字体<br>    local search<br>    RSS<br>    md渲染器   比如代码渲染,空格渲染<br>    ### Pandoc</p><h3 id="文章置顶"><a href="#文章置顶" class="headerlink" title="文章置顶"></a>文章置顶</h3><figure class="highlight cmd"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">npm uni hexo-generator-index</span><br><span class="line">npm install hexo-generator-index-pin-top --save</span><br></pre></td></tr></table></figure><p>提供更好的 Markdown 渲染，主要有两点好处：脚注、MathJax。详情参考</p>        <div id="aplayer-WXDyujej" class="aplayer aplayer-tag-marker" style="margin-bottom: 20px;">            <pre class="aplayer-lrc-content"></pre>        </div>        <script>          var ap = new APlayer({            element: document.getElementById("aplayer-WXDyujej"),            narrow: false,            autoplay: false,            showlrc: false,            music: {              title: "title",              author: "author",              url: "https://drive.google.com/uc?export=download&id=1u7dE6gzMjclBb0_B2uln50AMIdVEIuVe",              pic: "",              lrc: ""            }          });          window.aplayers || (window.aplayers = []);          window.aplayers.push(ap);        </script><p>当开启 Hexo 的 文章资源文件夹 功能时，可以将图片、音乐文件、歌词文件放入与文章对应的资源文件夹中，然后直接引用：</p><p>npm uninstall hexo-renderer-marked<br>npm install hexo-renderer-pandoc</p><div class="group-picture"><div class="group-picture-row"><div class="group-picture-column"><img src="/FirstUrlBlog/1.png" class="" width="233"></div><div class="group-picture-column"><img src="/FirstUrlBlog/1.png" class="" width="233"></div></div><div class="group-picture-row"><div class="group-picture-column"><img src="/FirstUrlBlog/1.png" class="" width="233"></div><div class="group-picture-column"><img src="/FirstUrlBlog/1.png" class="" width="233"></div><div class="group-picture-column"><img src="/FirstUrlBlog/1.png" class="" width="233"></div></div></div><p>前面<img src="/FirstUrlBlog/1.png" class="" width="233">这个图片<br><img src="/1.PNG"><br>npm uninstall hexo-renderer-marked<br>npm install hexo-renderer-pandoc</p><p><a href="https://tding.top/archives/7e5b094d.html">https://tding.top/archives/7e5b094d.html</a> 性能优化<br><a href="https://ed521.github.io/2020/11/hexo-aplayer/">https://ed521.github.io/2020/11/hexo-aplayer/</a> 音乐<br><a href="https://easyliu-ly.github.io/2020/11/22/hexo/insert_video/">https://easyliu-ly.github.io/2020/11/22/hexo/insert_video/</a>  video</p>]]></content>
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>El Psy Congroo ╮(╯▽╰)╭</p><span id="more"></span><p> &amp;nbsp&amp;nbsp 空格 nbsp$~~~~~$.</p><figure class="highlight c#"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">public</span> <span class="keyword">void</span> <span class="title">JustTestCSStyle</span>()</span></span><br><span class="line">&#123;</span><br><span class="line">Console.WriteLine(<span class="number">233</span>);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><p>Todo:<br>学习做个字母动画<br>字体<br>local search<br>RSS<br>md渲染器   比如代码渲染,空格渲染<br>### Pandoc</p><h3 id="打字特效">打字特效</h3><p>next/layout/<em>custom/cutom.njk/</em></p><h3 id="文章置顶">文章置顶</h3><figure class="highlight cmd"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">npm uni hexo-generator-index</span><br><span class="line">npm install hexo-generator-index-pin-top --save</span><br></pre></td></tr></table></figure><p>提供更好的 Markdown 渲染，主要有两点好处：脚注、MathJax。详情参考</p>        <div id="aplayer-PPyFOxur" class="aplayer aplayer-tag-marker" style="margin-bottom: 20px;">            <pre class="aplayer-lrc-content"></pre>        </div>        <script>          var ap = new APlayer({            element: document.getElementById("aplayer-PPyFOxur"),            narrow: false,            autoplay: false,            showlrc: false,            music: {              title: "title",              author: "author",              url: "https://drive.google.com/uc?export=download&id=1u7dE6gzMjclBb0_B2uln50AMIdVEIuVe",              pic: "",              lrc: ""            }          });          window.aplayers || (window.aplayers = []);          window.aplayers.push(ap);        </script><p>当开启 Hexo 的 文章资源文件夹 功能时，可以将图片、音乐文件、歌词文件放入与文章对应的资源文件夹中，然后直接引用：</p><p>npm uninstall hexo-renderer-marked<br>npm install hexo-renderer-pandoc</p><div class="group-picture"><div class="group-picture-row"><div class="group-picture-column"><img src="/FirstUrlBlog/1.png" class="" width="233"></div><div class="group-picture-column"><img src="/FirstUrlBlog/1.png" class="" width="233"></div></div><div class="group-picture-row"><div class="group-picture-column"><img src="/FirstUrlBlog/1.png" class="" width="233"></div><div class="group-picture-column"><img src="/FirstUrlBlog/1.png" class="" width="233"></div><div class="group-picture-column"><img src="/FirstUrlBlog/1.png" class="" width="233"></div></div></div><p>前面<img src="/FirstUrlBlog/1.png" class="" width="233">这个图片<br><img src="1.PNG" alt=""></p><!--![](FirstUrlBlog/1.PNG)  这个写法是从网页里找--><p>npm uninstall hexo-renderer-marked<br>npm install hexo-renderer-pandoc</p><p><a href="https://tding.top/archives/7e5b094d.html">https://tding.top/archives/7e5b094d.html</a> 性能优化<br><a href="https://ed521.github.io/2020/11/hexo-aplayer/">https://ed521.github.io/2020/11/hexo-aplayer/</a> 音乐<br><a href="https://easyliu-ly.github.io/2020/11/22/hexo/insert_video/">https://easyliu-ly.github.io/2020/11/22/hexo/insert_video/</a>  video</p>]]></content>
     
     
-    <summary type="html">文章摘录desc</summary>
+    <summary type="html">&lt;p&gt;El Psy Congroo ╮(╯▽╰)╭&lt;/p&gt;</summary>
     
     
     
     
     <category term="Hexo,NexT" scheme="http://ygonexus.github.io/tags/Hexo-NexT/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>元宵</title>
+    <link href="http://ygonexus.github.io/%E5%85%83%E5%AE%B5%E8%8A%82/"/>
+    <id>http://ygonexus.github.io/%E5%85%83%E5%AE%B5%E8%8A%82/</id>
+    <published>2023-02-05T03:18:18.000Z</published>
+    <updated>2023-02-14T16:15:23.198Z</updated>
+    
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><div class="group-picture"><div class="group-picture-row"><div class="group-picture-column"><img src="/%E5%85%83%E5%AE%B5%E8%8A%82/IMG_20230205_180247.jpg" class="" width="233"></div><div class="group-picture-column"><img src="/%E5%85%83%E5%AE%B5%E8%8A%82/IMG_20230205_180253.jpg" class="" width="233"></div></div></div><p>大姨厨艺真好</p><p>西湖瞎逛 ╮(╯▽╰)╭  还好没去挤城市广场.</p><div class="group-picture"><div class="group-picture-row"><div class="group-picture-column"><img src="/%E5%85%83%E5%AE%B5%E8%8A%82/IMG_20230205_193145.jpg" class="" width="233"></div></div><div class="group-picture-row"><div class="group-picture-column"><img src="/%E5%85%83%E5%AE%B5%E8%8A%82/IMG_20230205_194304.jpg" class="" width="233"></div><div class="group-picture-column"><img src="/%E5%85%83%E5%AE%B5%E8%8A%82/IMG_20230205_194306.jpg" class="" width="233"></div><div class="group-picture-column"><img src="/%E5%85%83%E5%AE%B5%E8%8A%82/IMG_20230205_194307.jpg" class="" width="233"></div></div><div class="group-picture-row"><div class="group-picture-column"><img src="/%E5%85%83%E5%AE%B5%E8%8A%82/IMG_20230205_195010.jpg" class="" width="233"></div><div class="group-picture-column"><img src="/%E5%85%83%E5%AE%B5%E8%8A%82/IMG_20230205_195707.jpg" class="" width="233"></div><div class="group-picture-column"><img src="/%E5%85%83%E5%AE%B5%E8%8A%82/IMG_20230205_201512.jpg" class="" width="233"></div></div></div>]]></content>
+    
+    
+    <summary type="html">啦啦啦</summary>
+    
+    
+    
+    
+    <category term="日常, 杭州" scheme="http://ygonexus.github.io/tags/%E6%97%A5%E5%B8%B8-%E6%9D%AD%E5%B7%9E/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>竹垟</title>
+    <link href="http://ygonexus.github.io/20230124/"/>
+    <id>http://ygonexus.github.io/20230124/</id>
+    <published>2023-01-24T03:18:18.000Z</published>
+    <updated>2023-02-14T16:10:59.197Z</updated>
+    
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><div class="group-picture"><div class="group-picture-row"><div class="group-picture-column"><img src="/20230124/IMG_20230124_200852.jpg" class=""></div><div class="group-picture-column"><img src="/20230124/IMG_20230124_201819.jpg" class=""></div></div><div class="group-picture-row"><div class="group-picture-column"><img src="/20230124/IMG_20230124_201823.jpg" class=""></div><div class="group-picture-column"><img src="/20230124/IMG_20230125_125716.jpg" class=""></div></div><div class="group-picture-row"><div class="group-picture-column"><img src="/20230124/IMG_20230125_125719.jpg" class=""></div><div class="group-picture-column"><img src="/20230124/IMG_20230125_125724.jpg" class=""></div></div></div>]]></content>
+    
+    
+    <summary type="html">啦啦啦</summary>
+    
+    
+    
+    
+    <category term="日常, 龙泉" scheme="http://ygonexus.github.io/tags/%E6%97%A5%E5%B8%B8-%E9%BE%99%E6%B3%89/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>杭州大雪</title>
+    <link href="http://ygonexus.github.io/20221201/"/>
+    <id>http://ygonexus.github.io/20221201/</id>
+    <published>2022-12-01T03:18:18.000Z</published>
+    <updated>2023-02-14T15:45:55.869Z</updated>
+    
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><div class="group-picture"><div class="group-picture-row"><div class="group-picture-column"><img src="/20221201/IMG_20221201_082125.jpg" class=""></div><div class="group-picture-column"><img src="/20221201/IMG_20221201_082708.jpg" class=""></div><div class="group-picture-column"><img src="/20221201/IMG_20221201_083447.jpg" class=""></div></div><div class="group-picture-row"><div class="group-picture-column"><img src="/20221201/IMG_20221201_083715.jpg" class=""></div><div class="group-picture-column"><img src="/20221201/IMG_20221201_083716.jpg" class=""></div><div class="group-picture-column"><img src="/20221201/IMG_20221201_085632.jpg" class=""></div></div><div class="group-picture-row"><div class="group-picture-column"><img src="/20221201/IMG_20221201_085638.jpg" class=""></div><div class="group-picture-column"><img src="/20221201/IMG_20221201_101049.jpg" class=""></div></div></div>]]></content>
+    
+    
+    <summary type="html">突然降温</summary>
+    
+    
+    
+    
+    <category term="日常,杭州" scheme="http://ygonexus.github.io/tags/%E6%97%A5%E5%B8%B8-%E6%9D%AD%E5%B7%9E/"/>
     
   </entry>
   
