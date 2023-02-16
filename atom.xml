@@ -55,32 +55,13 @@
   </entry>
   
   <entry>
-    <title>搭建日志</title>
-    <link href="http://ygonexus.github.io/FirstUrlBlog/"/>
-    <id>http://ygonexus.github.io/FirstUrlBlog/</id>
-    <published>2023-02-05T03:18:18.000Z</published>
-    <updated>2023-02-14T16:17:19.019Z</updated>
-    
-    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>El Psy Congroo ╮(╯▽╰)╭</p><span id="more"></span><p> &amp;nbsp&amp;nbsp 空格 nbsp$~~~~~$.</p><figure class="highlight c#"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">public</span> <span class="keyword">void</span> <span class="title">JustTestCSStyle</span>()</span></span><br><span class="line">&#123;</span><br><span class="line">Console.WriteLine(<span class="number">233</span>);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><p>Todo:<br>学习做个字母动画<br>字体<br>local search<br>RSS<br>md渲染器   比如代码渲染,空格渲染<br>### Pandoc</p><h3 id="打字特效">打字特效</h3><p>next/layout/<em>custom/cutom.njk/</em></p><h3 id="文章置顶">文章置顶</h3><figure class="highlight cmd"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">npm uni hexo-generator-index</span><br><span class="line">npm install hexo-generator-index-pin-top --save</span><br></pre></td></tr></table></figure><p>提供更好的 Markdown 渲染，主要有两点好处：脚注、MathJax。详情参考</p>        <div id="aplayer-PPyFOxur" class="aplayer aplayer-tag-marker" style="margin-bottom: 20px;">            <pre class="aplayer-lrc-content"></pre>        </div>        <script>          var ap = new APlayer({            element: document.getElementById("aplayer-PPyFOxur"),            narrow: false,            autoplay: false,            showlrc: false,            music: {              title: "title",              author: "author",              url: "https://drive.google.com/uc?export=download&id=1u7dE6gzMjclBb0_B2uln50AMIdVEIuVe",              pic: "",              lrc: ""            }          });          window.aplayers || (window.aplayers = []);          window.aplayers.push(ap);        </script><p>当开启 Hexo 的 文章资源文件夹 功能时，可以将图片、音乐文件、歌词文件放入与文章对应的资源文件夹中，然后直接引用：</p><p>npm uninstall hexo-renderer-marked<br>npm install hexo-renderer-pandoc</p><div class="group-picture"><div class="group-picture-row"><div class="group-picture-column"><img src="/FirstUrlBlog/1.png" class="" width="233"></div><div class="group-picture-column"><img src="/FirstUrlBlog/1.png" class="" width="233"></div></div><div class="group-picture-row"><div class="group-picture-column"><img src="/FirstUrlBlog/1.png" class="" width="233"></div><div class="group-picture-column"><img src="/FirstUrlBlog/1.png" class="" width="233"></div><div class="group-picture-column"><img src="/FirstUrlBlog/1.png" class="" width="233"></div></div></div><p>前面<img src="/FirstUrlBlog/1.png" class="" width="233">这个图片<br><img src="1.PNG" alt=""></p><!--![](FirstUrlBlog/1.PNG)  这个写法是从网页里找--><p>npm uninstall hexo-renderer-marked<br>npm install hexo-renderer-pandoc</p><p><a href="https://tding.top/archives/7e5b094d.html">https://tding.top/archives/7e5b094d.html</a> 性能优化<br><a href="https://ed521.github.io/2020/11/hexo-aplayer/">https://ed521.github.io/2020/11/hexo-aplayer/</a> 音乐<br><a href="https://easyliu-ly.github.io/2020/11/22/hexo/insert_video/">https://easyliu-ly.github.io/2020/11/22/hexo/insert_video/</a>  video</p>]]></content>
-    
-    
-    <summary type="html">&lt;p&gt;El Psy Congroo ╮(╯▽╰)╭&lt;/p&gt;</summary>
-    
-    
-    
-    
-    <category term="Hexo,NexT" scheme="http://ygonexus.github.io/tags/Hexo-NexT/"/>
-    
-  </entry>
-  
-  <entry>
     <title>元宵</title>
-    <link href="http://ygonexus.github.io/%E5%85%83%E5%AE%B5%E8%8A%82/"/>
-    <id>http://ygonexus.github.io/%E5%85%83%E5%AE%B5%E8%8A%82/</id>
+    <link href="http://ygonexus.github.io/20230205/"/>
+    <id>http://ygonexus.github.io/20230205/</id>
     <published>2023-02-05T03:18:18.000Z</published>
-    <updated>2023-02-14T16:15:23.198Z</updated>
+    <updated>2023-02-16T14:48:20.119Z</updated>
     
-    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><div class="group-picture"><div class="group-picture-row"><div class="group-picture-column"><img src="/%E5%85%83%E5%AE%B5%E8%8A%82/IMG_20230205_180247.jpg" class="" width="233"></div><div class="group-picture-column"><img src="/%E5%85%83%E5%AE%B5%E8%8A%82/IMG_20230205_180253.jpg" class="" width="233"></div></div></div><p>大姨厨艺真好</p><p>西湖瞎逛 ╮(╯▽╰)╭  还好没去挤城市广场.</p><div class="group-picture"><div class="group-picture-row"><div class="group-picture-column"><img src="/%E5%85%83%E5%AE%B5%E8%8A%82/IMG_20230205_193145.jpg" class="" width="233"></div></div><div class="group-picture-row"><div class="group-picture-column"><img src="/%E5%85%83%E5%AE%B5%E8%8A%82/IMG_20230205_194304.jpg" class="" width="233"></div><div class="group-picture-column"><img src="/%E5%85%83%E5%AE%B5%E8%8A%82/IMG_20230205_194306.jpg" class="" width="233"></div><div class="group-picture-column"><img src="/%E5%85%83%E5%AE%B5%E8%8A%82/IMG_20230205_194307.jpg" class="" width="233"></div></div><div class="group-picture-row"><div class="group-picture-column"><img src="/%E5%85%83%E5%AE%B5%E8%8A%82/IMG_20230205_195010.jpg" class="" width="233"></div><div class="group-picture-column"><img src="/%E5%85%83%E5%AE%B5%E8%8A%82/IMG_20230205_195707.jpg" class="" width="233"></div><div class="group-picture-column"><img src="/%E5%85%83%E5%AE%B5%E8%8A%82/IMG_20230205_201512.jpg" class="" width="233"></div></div></div>]]></content>
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><div class="group-picture"><div class="group-picture-row"><div class="group-picture-column"><img src="/20230205/IMG_20230205_180247.jpg" class="" width="233"></div><div class="group-picture-column"><img src="/20230205/IMG_20230205_180253.jpg" class="" width="233"></div></div></div><p>大姨厨艺真好</p><p>西湖瞎逛 ╮(╯▽╰)╭  还好没去挤城市广场.</p><div class="group-picture"><div class="group-picture-row"><div class="group-picture-column"><img src="/20230205/IMG_20230205_193145.jpg" class="" width="233"></div></div><div class="group-picture-row"><div class="group-picture-column"><img src="/20230205/IMG_20230205_194304.jpg" class="" width="233"></div><div class="group-picture-column"><img src="/20230205/IMG_20230205_194306.jpg" class="" width="233"></div><div class="group-picture-column"><img src="/20230205/IMG_20230205_194307.jpg" class="" width="233"></div></div><div class="group-picture-row"><div class="group-picture-column"><img src="/20230205/IMG_20230205_195010.jpg" class="" width="233"></div><div class="group-picture-column"><img src="/20230205/IMG_20230205_195707.jpg" class="" width="233"></div><div class="group-picture-column"><img src="/20230205/IMG_20230205_201512.jpg" class="" width="233"></div></div></div>]]></content>
     
     
     <summary type="html">啦啦啦</summary>
@@ -89,6 +70,44 @@
     
     
     <category term="日常, 杭州" scheme="http://ygonexus.github.io/tags/%E6%97%A5%E5%B8%B8-%E6%9D%AD%E5%B7%9E/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>元宵</title>
+    <link href="http://ygonexus.github.io/20230216/"/>
+    <id>http://ygonexus.github.io/20230216/</id>
+    <published>2023-02-05T03:18:18.000Z</published>
+    <updated>2023-02-16T14:48:20.137Z</updated>
+    
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>#云际<br>21楼是律师事务所</p><p>#性能优化<br>粒子转序列帧贴图播放<br>2D角色转RPG通道然后从key取色<br>重写unity的image UI 通过OnPopulateMesh 重新绘制mesh的形状<br>AStar 的OpenList用MinHeap  Heap是堆</p>]]></content>
+    
+    
+    <summary type="html">啦啦啦</summary>
+    
+    
+    
+    
+    <category term="日常, 杭州 ,程序" scheme="http://ygonexus.github.io/tags/%E6%97%A5%E5%B8%B8-%E6%9D%AD%E5%B7%9E-%E7%A8%8B%E5%BA%8F/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>搭建日志</title>
+    <link href="http://ygonexus.github.io/FirstUrlBlog/"/>
+    <id>http://ygonexus.github.io/FirstUrlBlog/</id>
+    <published>2023-02-05T03:18:18.000Z</published>
+    <updated>2023-02-14T16:17:19.019Z</updated>
+    
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>El Psy Congroo ╮(╯▽╰)╭</p><span id="more"></span><p> &amp;nbsp&amp;nbsp 空格 nbsp$~~~~~$.</p><figure class="highlight c#"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">public</span> <span class="keyword">void</span> <span class="title">JustTestCSStyle</span>()</span></span><br><span class="line">&#123;</span><br><span class="line">Console.WriteLine(<span class="number">233</span>);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><p>Todo:<br>学习做个字母动画<br>字体<br>local search<br>RSS<br>md渲染器   比如代码渲染,空格渲染<br>### Pandoc</p><h3 id="打字特效">打字特效</h3><p>next/layout/<em>custom/cutom.njk/</em></p><h3 id="文章置顶">文章置顶</h3><figure class="highlight cmd"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">npm uni hexo-generator-index</span><br><span class="line">npm install hexo-generator-index-pin-top --save</span><br></pre></td></tr></table></figure><p>提供更好的 Markdown 渲染，主要有两点好处：脚注、MathJax。详情参考</p>        <div id="aplayer-ufXmOWDp" class="aplayer aplayer-tag-marker" style="margin-bottom: 20px;">            <pre class="aplayer-lrc-content"></pre>        </div>        <script>          var ap = new APlayer({            element: document.getElementById("aplayer-ufXmOWDp"),            narrow: false,            autoplay: false,            showlrc: false,            music: {              title: "title",              author: "author",              url: "https://drive.google.com/uc?export=download&id=1u7dE6gzMjclBb0_B2uln50AMIdVEIuVe",              pic: "",              lrc: ""            }          });          window.aplayers || (window.aplayers = []);          window.aplayers.push(ap);        </script><p>当开启 Hexo 的 文章资源文件夹 功能时，可以将图片、音乐文件、歌词文件放入与文章对应的资源文件夹中，然后直接引用：</p><p>npm uninstall hexo-renderer-marked<br>npm install hexo-renderer-pandoc</p><div class="group-picture"><div class="group-picture-row"><div class="group-picture-column"><img src="/FirstUrlBlog/1.png" class="" width="233"></div><div class="group-picture-column"><img src="/FirstUrlBlog/1.png" class="" width="233"></div></div><div class="group-picture-row"><div class="group-picture-column"><img src="/FirstUrlBlog/1.png" class="" width="233"></div><div class="group-picture-column"><img src="/FirstUrlBlog/1.png" class="" width="233"></div><div class="group-picture-column"><img src="/FirstUrlBlog/1.png" class="" width="233"></div></div></div><p>前面<img src="/FirstUrlBlog/1.png" class="" width="233">这个图片<br><img src="1.PNG" alt=""></p><!--![](FirstUrlBlog/1.PNG)  这个写法是从网页里找--><p>npm uninstall hexo-renderer-marked<br>npm install hexo-renderer-pandoc</p><p><a href="https://tding.top/archives/7e5b094d.html">https://tding.top/archives/7e5b094d.html</a> 性能优化<br><a href="https://ed521.github.io/2020/11/hexo-aplayer/">https://ed521.github.io/2020/11/hexo-aplayer/</a> 音乐<br><a href="https://easyliu-ly.github.io/2020/11/22/hexo/insert_video/">https://easyliu-ly.github.io/2020/11/22/hexo/insert_video/</a>  video</p>]]></content>
+    
+    
+    <summary type="html">&lt;p&gt;El Psy Congroo ╮(╯▽╰)╭&lt;/p&gt;</summary>
+    
+    
+    
+    
+    <category term="Hexo,NexT" scheme="http://ygonexus.github.io/tags/Hexo-NexT/"/>
     
   </entry>
   
@@ -116,7 +135,7 @@
     <link href="http://ygonexus.github.io/20221201/"/>
     <id>http://ygonexus.github.io/20221201/</id>
     <published>2022-12-01T03:18:18.000Z</published>
-    <updated>2023-02-14T15:45:55.869Z</updated>
+    <updated>2023-02-16T14:48:20.143Z</updated>
     
     <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><div class="group-picture"><div class="group-picture-row"><div class="group-picture-column"><img src="/20221201/IMG_20221201_082125.jpg" class=""></div><div class="group-picture-column"><img src="/20221201/IMG_20221201_082708.jpg" class=""></div><div class="group-picture-column"><img src="/20221201/IMG_20221201_083447.jpg" class=""></div></div><div class="group-picture-row"><div class="group-picture-column"><img src="/20221201/IMG_20221201_083715.jpg" class=""></div><div class="group-picture-column"><img src="/20221201/IMG_20221201_083716.jpg" class=""></div><div class="group-picture-column"><img src="/20221201/IMG_20221201_085632.jpg" class=""></div></div><div class="group-picture-row"><div class="group-picture-column"><img src="/20221201/IMG_20221201_085638.jpg" class=""></div><div class="group-picture-column"><img src="/20221201/IMG_20221201_101049.jpg" class=""></div></div></div>]]></content>
     
@@ -127,6 +146,44 @@
     
     
     <category term="日常,杭州" scheme="http://ygonexus.github.io/tags/%E6%97%A5%E5%B8%B8-%E6%9D%AD%E5%B7%9E/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>动漫博物馆</title>
+    <link href="http://ygonexus.github.io/20221113/"/>
+    <id>http://ygonexus.github.io/20221113/</id>
+    <published>2022-11-13T03:18:18.000Z</published>
+    <updated>2023-02-16T14:48:20.128Z</updated>
+    
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>白马湖</p><div class="group-picture"><div class="group-picture-row"><div class="group-picture-column"><img src="/20221113/IMG_20221113_133808.jpg" class=""></div><div class="group-picture-column"><img src="/20221113/IMG_20221113_133821.jpg" class=""></div><div class="group-picture-column"><img src="/20221113/IMG_20221113_134940.jpg" class=""></div></div><div class="group-picture-row"><div class="group-picture-column"><img src="/20221113/IMG_20221113_135020.jpg" class=""></div><div class="group-picture-column"><img src="/20221113/IMG_20221113_135132.jpg" class=""></div><div class="group-picture-column"><img src="/20221113/IMG_20221113_135136.jpg" class=""></div></div><div class="group-picture-row"><div class="group-picture-column"><img src="/20221113/IMG_20221113_135159.jpg" class=""></div><div class="group-picture-column"><img src="/20221113/IMG_20221113_135221.jpg" class=""></div><div class="group-picture-column"><img src="/20221113/IMG_20221113_140058.jpg" class=""></div></div><div class="group-picture-row"><div class="group-picture-column"><img src="/20221113/IMG_20221113_140106.jpg" class=""></div><div class="group-picture-column"><img src="/20221113/IMG_20221113_142338.jpg" class=""></div><div class="group-picture-column"><img src="/20221113/IMG_20221113_143900.jpg" class=""></div></div><div class="group-picture-row"><div class="group-picture-column"><img src="/20221113/IMG_20221113_172302.jpg" class=""></div></div></div>]]></content>
+    
+    
+    <summary type="html">年代感的国创动漫馆</summary>
+    
+    
+    
+    
+    <category term="日常,杭州" scheme="http://ygonexus.github.io/tags/%E6%97%A5%E5%B8%B8-%E6%9D%AD%E5%B7%9E/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>绍兴</title>
+    <link href="http://ygonexus.github.io/20221025/"/>
+    <id>http://ygonexus.github.io/20221025/</id>
+    <published>2022-10-25T03:18:18.000Z</published>
+    <updated>2023-02-16T14:48:20.149Z</updated>
+    
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>和聂游绍兴 , 船坐吐了 , 下次借绍兴身份证去 , 免票 .  手动狗头</p><div class="group-picture"><div class="group-picture-row"><div class="group-picture-column"><img src="/20221025/IMG_20221025_102102.jpg" class=""></div><div class="group-picture-column"><img src="/20221025/IMG_20221025_102104.jpg" class=""></div><div class="group-picture-column"><img src="/20221025/IMG_20221025_102111.jpg" class=""></div></div><div class="group-picture-row"><div class="group-picture-column"><img src="/20221025/IMG_20221025_102115.jpg" class=""></div><div class="group-picture-column"><img src="/20221025/IMG_20221025_151618.jpg" class=""></div><div class="group-picture-column"><img src="/20221025/IMG_20221025_151633.jpg" class=""></div></div><div class="group-picture-row"><div class="group-picture-column"><img src="/20221025/IMG_20221025_151639.jpg" class=""></div><div class="group-picture-column"><img src="/20221025/IMG_20221025_151818.jpg" class=""></div><div class="group-picture-column"><img src="/20221025/IMG_20221025_151823.jpg" class=""></div></div><div class="group-picture-row"><div class="group-picture-column"><img src="/20221025/IMG_20221025_151932.jpg" class=""></div><div class="group-picture-column"><img src="/20221025/IMG_20221025_152655.jpg" class=""></div><div class="group-picture-column"><img src="/20221025/IMG_20221025_152716.jpg" class=""></div></div><div class="group-picture-row"><div class="group-picture-column"><img src="/20221025/IMG_20221025_153215.jpg" class=""></div><div class="group-picture-column"><img src="/20221025/IMG_20221025_153456.jpg" class=""></div><div class="group-picture-column"><img src="/20221025/IMG_20221025_153459.jpg" class=""></div></div><div class="group-picture-row"><div class="group-picture-column"><img src="/20221025/IMG_20221025_153505.jpg" class=""></div><div class="group-picture-column"><img src="/20221025/IMG_20221025_153508.jpg" class=""></div><div class="group-picture-column"><img src="/20221025/IMG_20221025_153516.jpg" class=""></div></div><div class="group-picture-row"><div class="group-picture-column"><img src="/20221025/IMG_20221025_155821.jpg" class=""></div><div class="group-picture-column"><img src="/20221025/IMG_20221025_155824.jpg" class=""></div><div class="group-picture-column"><img src="/20221025/IMG_20221025_162001.jpg" class=""></div></div><div class="group-picture-row"><div class="group-picture-column"><img src="/20221025/IMG_20221025_162010.jpg" class=""></div><div class="group-picture-column"><img src="/20221025/IMG_20221025_162013.jpg" class=""></div><div class="group-picture-column"><img src="/20221025/IMG_20221025_162022.jpg" class=""></div></div><div class="group-picture-row"><div class="group-picture-column"><img src="/20221025/IMG_20221025_162123.jpg" class=""></div><div class="group-picture-column"><img src="/20221025/IMG_20221025_162140.jpg" class=""></div><div class="group-picture-column"><img src="/20221025/IMG_20221025_162239.jpg" class=""></div></div><div class="group-picture-row"><div class="group-picture-column"><img src="/20221025/IMG_20221025_162246.jpg" class=""></div><div class="group-picture-column"><img src="/20221025/IMG_20221025_162337.jpg" class=""></div><div class="group-picture-column"><img src="/20221025/IMG_20221025_162357.jpg" class=""></div></div><div class="group-picture-row"><div class="group-picture-column"><img src="/20221025/IMG_20221025_162400.jpg" class=""></div><div class="group-picture-column"><img src="/20221025/IMG_20221025_162413.jpg" class=""></div><div class="group-picture-column"><img src="/20221025/IMG_20221025_162525.jpg" class=""></div></div><div class="group-picture-row"><div class="group-picture-column"><img src="/20221025/IMG_20221025_162532.jpg" class=""></div><div class="group-picture-column"><img src="/20221025/IMG_20221025_162737.jpg" class=""></div><div class="group-picture-column"><img src="/20221025/IMG_20221025_162740.jpg" class=""></div></div><div class="group-picture-row"><div class="group-picture-column"><img src="/20221025/IMG_20221025_162743.jpg" class=""></div><div class="group-picture-column"><img src="/20221025/IMG_20221025_163008.jpg" class=""></div><div class="group-picture-column"><img src="/20221025/IMG_20221025_163643.jpg" class=""></div></div><div class="group-picture-row"><div class="group-picture-column"><img src="/20221025/IMG_20221025_163914.jpg" class=""></div><div class="group-picture-column"><img src="/20221025/IMG_20221025_164015.jpg" class=""></div><div class="group-picture-column"><img src="/20221025/IMG_20221025_164307.jpg" class=""></div></div><div class="group-picture-row"><div class="group-picture-column"><img src="/20221025/IMG_20221025_164328.jpg" class=""></div><div class="group-picture-column"><img src="/20221025/IMG_20221025_165129.jpg" class=""></div><div class="group-picture-column"><img src="/20221025/IMG_20221025_165137.jpg" class=""></div></div><div class="group-picture-row"><div class="group-picture-column"><img src="/20221025/IMG_20221025_165150.jpg" class=""></div><div class="group-picture-column"><img src="/20221025/IMG_20221025_165154.jpg" class=""></div><div class="group-picture-column"><img src="/20221025/IMG_20221025_165400.jpg" class=""></div></div><div class="group-picture-row"><div class="group-picture-column"><img src="/20221025/IMG_20221025_165603.jpg" class=""></div><div class="group-picture-column"><img src="/20221025/IMG_20221025_165708.jpg" class=""></div><div class="group-picture-column"><img src="/20221025/IMG_20221025_174223.jpg" class=""></div></div><div class="group-picture-row"><div class="group-picture-column"><img src="/20221025/IMG_20221025_183303.jpg" class=""></div><div class="group-picture-column"><img src="/20221025/IMG_20221025_183306.jpg" class=""></div><div class="group-picture-column"><img src="/20221025/IMG_20221025_183435.jpg" class=""></div></div><div class="group-picture-row"><div class="group-picture-column"><img src="/20221025/IMG_20221025_183436.jpg" class=""></div><div class="group-picture-column"><img src="/20221025/IMG_20221025_183622.jpg" class=""></div><div class="group-picture-column"><img src="/20221025/IMG_20221025_190750.jpg" class=""></div></div><div class="group-picture-row"><div class="group-picture-column"><img src="/20221025/IMG_20221025_191135.jpg" class=""></div><div class="group-picture-column"><img src="/20221025/IMG_20221025_191450.jpg" class=""></div><div class="group-picture-column"><img src="/20221025/IMG_20221025_191451.jpg" class=""></div></div><div class="group-picture-row"><div class="group-picture-column"><img src="/20221025/IMG_20221025_191454.jpg" class=""></div><div class="group-picture-column"><img src="/20221025/IMG_20221025_191456.jpg" class=""></div><div class="group-picture-column"><img src="/20221025/IMG_20221025_192113.jpg" class=""></div></div><div class="group-picture-row"><div class="group-picture-column"><img src="/20221025/IMG_20221025_192117.jpg" class=""></div><div class="group-picture-column"><img src="/20221025/IMG_20221025_192149.jpg" class=""></div><div class="group-picture-column"><img src="/20221025/IMG_20221025_192240.jpg" class=""></div></div><div class="group-picture-row"><div class="group-picture-column"><img src="/20221025/IMG_20221025_192325.jpg" class=""></div><div class="group-picture-column"><img src="/20221025/IMG_20221025_192331.jpg" class=""></div></div></div>]]></content>
+    
+    
+    <summary type="html">柯岩|柯桥</summary>
+    
+    
+    
+    
+    <category term="日常,绍兴" scheme="http://ygonexus.github.io/tags/%E6%97%A5%E5%B8%B8-%E7%BB%8D%E5%85%B4/"/>
     
   </entry>
   
