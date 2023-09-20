@@ -20,19 +20,21 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pace/1.2.4/themes/blue/pace-theme-flat-top.css">
   <script src="https://cdnjs.cloudflare.com/ajax/libs/pace/1.2.4/pace.min.js" integrity="sha256-gqd7YTjg/BtfqWSwsJOvndl0Bxc8gFImLEkXQT8+qj0=" crossorigin="anonymous"></script>
 
-<script class="next-config" data-name="main" type="application/json">{"hostname":"ygonexus.github.io","root":"/","images":"/images","scheme":"Muse","darkmode":false,"version":"8.14.2","exturl":false,"sidebar":{"position":"right","display":"post","padding":18,"offset":12},"copycode":{"enable":false,"style":null},"bookmark":{"enable":false,"color":"#222","save":"auto"},"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"stickytabs":false,"motion":{"enable":true,"async":false,"transition":{"menu_item":"fadeInDown","post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"prism":false,"i18n":{"placeholder":"搜索...","empty":"没有找到任何搜索结果：${query}","hits_time":"找到 ${hits} 个搜索结果（用时 ${time} 毫秒）","hits":"找到 ${hits} 个搜索结果"},"path":"/search.xml","localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false}}</script><script src="/js/config.js"></script>
+<script class="next-config" data-name="main" type="application/json">{"hostname":"ygonexus.github.io","root":"/","images":"/images","scheme":"Muse","darkmode":false,"version":"8.14.2","exturl":false,"sidebar":{"position":"right","display":"post","padding":18,"offset":12},"copycode":{"enable":false,"style":null},"bookmark":{"enable":false,"color":"#222","save":"auto"},"mediumzoom":false,"lazyload":true,"pangu":false,"comments":{"style":"tabs","active":"gitalk","storage":true,"lazyload":false,"nav":null,"activeClass":"gitalk"},"stickytabs":false,"motion":{"enable":true,"async":false,"transition":{"menu_item":"fadeInDown","post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"prism":false,"i18n":{"placeholder":"搜索...","empty":"没有找到任何搜索结果：${query}","hits_time":"找到 ${hits} 个搜索结果（用时 ${time} 毫秒）","hits":"找到 ${hits} 个搜索结果"},"path":"/search.xml","localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false}}</script><script src="/js/config.js"></script>
 
     <meta name="description" content="啦啦啦">
 <meta property="og:type" content="article">
-<meta property="og:title" content="元宵">
+<meta property="og:title" content="工作笔记">
 <meta property="og:url" content="http://ygonexus.github.io/20230216/index.html">
 <meta property="og:site_name" content="DA">
 <meta property="og:description" content="啦啦啦">
 <meta property="og:locale" content="zh_CN">
-<meta property="article:published_time" content="2023-02-05T03:18:18.000Z">
-<meta property="article:modified_time" content="2023-02-16T14:48:20.137Z">
+<meta property="article:published_time" content="2023-02-16T03:18:18.000Z">
+<meta property="article:modified_time" content="2023-09-20T14:36:24.420Z">
 <meta property="article:author" content="YgoNexus">
-<meta property="article:tag" content="日常, 杭州 ,程序">
+<meta property="article:tag" content="日常">
+<meta property="article:tag" content="杭州">
+<meta property="article:tag" content="程序">
 <meta name="twitter:card" content="summary">
 
 
@@ -40,10 +42,10 @@
 
 
 
-<script class="next-config" data-name="page" type="application/json">{"sidebar":"","isHome":false,"isPost":true,"lang":"zh-CN","comments":true,"permalink":"http://ygonexus.github.io/20230216/","path":"20230216/","title":"元宵"}</script>
+<script class="next-config" data-name="page" type="application/json">{"sidebar":"","isHome":false,"isPost":true,"lang":"zh-CN","comments":true,"permalink":"http://ygonexus.github.io/20230216/","path":"20230216/","title":"工作笔记"}</script>
 
 <script class="next-config" data-name="calendar" type="application/json">""</script>
-<title>元宵 | DA</title>
+<title>工作笔记 | DA</title>
   
 
 
@@ -131,7 +133,7 @@
   
   <aside class="sidebar">
 
-    <div class="sidebar-inner sidebar-overview-active">
+    <div class="sidebar-inner sidebar-nav-active sidebar-toc-active">
       <ul class="sidebar-nav">
         <li class="sidebar-nav-toc">
           文章目录
@@ -144,6 +146,7 @@
       <div class="sidebar-panel-container">
         <!--noindex-->
         <div class="post-toc-wrap sidebar-panel">
+            <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#LRU%EF%BC%88Least-Recently-Used%EF%BC%89%E6%9C%80%E8%BF%91%E6%9C%80%E5%B0%91%E4%BD%BF%E7%94%A8%E7%AE%97%E6%B3%95"><span class="nav-number">1.</span> <span class="nav-text">LRU（Least Recently Used）最近最少使用算法</span></a></li></ol></div>
         </div>
         <!--/noindex-->
 
@@ -158,12 +161,12 @@
   <nav class="site-state">
       <div class="site-state-item site-state-posts">
         <a href="/archives/">
-          <span class="site-state-item-count">9</span>
+          <span class="site-state-item-count">10</span>
           <span class="site-state-item-name">日志</span>
         </a>
       </div>
       <div class="site-state-item site-state-tags">
-        <span class="site-state-item-count">6</span>
+        <span class="site-state-item-count">10</span>
         <span class="site-state-item-name">标签</span>
       </div>
   </nav>
@@ -211,12 +214,12 @@
     </span>
 
     <span hidden itemprop="post" itemscope itemtype="http://schema.org/CreativeWork">
-      <meta itemprop="name" content="元宵 | DA">
+      <meta itemprop="name" content="工作笔记 | DA">
       <meta itemprop="description" content="啦啦啦">
     </span>
       <header class="post-header">
         <h1 class="post-title" itemprop="name headline">
-          元宵
+          工作笔记
         </h1>
 
         <div class="post-meta-container">
@@ -227,14 +230,7 @@
       </span>
       <span class="post-meta-item-text">发表于</span>
 
-      <time title="创建时间：2023-02-05 11:18:18" itemprop="dateCreated datePublished" datetime="2023-02-05T11:18:18+08:00">2023-02-05</time>
-    </span>
-    <span class="post-meta-item">
-      <span class="post-meta-item-icon">
-        <i class="far fa-calendar-check"></i>
-      </span>
-      <span class="post-meta-item-text">更新于</span>
-      <time title="修改时间：2023-02-16 22:48:20" itemprop="dateModified" datetime="2023-02-16T22:48:20+08:00">2023-02-16</time>
+      <time title="创建时间：2023-02-16 11:18:18" itemprop="dateCreated datePublished" datetime="2023-02-16T11:18:18+08:00">2023-02-16</time>
     </span>
 
   
@@ -255,14 +251,99 @@
     
     
     <div class="post-body" itemprop="articleBody">
-        <p>#云际<br>
-21楼是律师事务所</p>
-<p>#性能优化<br>
+        <p>#工作<br>
+看《unity动作游戏开发实战》<br>
+DNLSprite_Normal   line-&gt; 223<br>
+shader 写在  Sprite-DNL.shader</p>
+<p>配置Git Bash使用SSH协议3步：</p>
+<ol>
+<li>生成SSH Key：打开Git Bash，运行以下命令：</li>
+</ol>
+<p><code>$ ssh-keygen -t rsa -b 4096 -C &quot;your_email@example.com&quot;</code></p>
+<p>然后按提示输入密码和文件的存储路径。</p>
+<ol start="2">
+<li>添加SSH Key到ssh-agent：运行以下命令：</li>
+</ol>
+<p><code>$ eval &quot;$(ssh-agent -s)&quot; $ ssh-add ~/.ssh/id_rsa</code><br>
+然后Github那边添加SSH</p>
+<p>Hexo安装<br>
+安装nodejs，npm安装<br>
+npm install -g hexo-cli<br>
+就可以启动项目了<br>
+hexo s --debug  本地测试<br>
+hexo g -d 部署到github</p>
+<p>npm install hexo-tag-dplayer -s<br>
+npm install hexo-tag-aplayer -s</p>
+<div style="position: relative; width: 100%; height: 0; padding-bottom: 75%;">
+<iframe src="//player.bilibili.com/player.html?aid=831027623&bvid=BV1J34y1P7FY&cid=1270320148&p=1&high_quality=1&danmaku=0" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" style="position: absolute; width: 100%; height: 100%; left: 0; top: 0;"> </iframe>
+</div>
+<p>#云际<br>
+21楼是律师事务所<br>
+9楼是婚纱的<br>
+安迪推荐了  鱼油  21金维他   善存 买多维</p>
+<p>UI界面资源脚本 CollectUISprites.cs<br>
+UIFrame-生成代码MonoScript到预制体的引用<br>
+IGameTools-&gt;TextureImportSetting 批量设置图片格式<br>
+GlobalNetMessage -&gt; Line 356 是新手引导相关<br>
+服务器5人<br>
+系统5人<br>
+战斗4人<br>
+引擎7~8人<br>
+自己写一个框架  包含AB包资源加载<br>
+Update轮询，对象池管理<br>
+Editor有专门的EditorPrefs存数据</p>
+<p>TMGeNode.PushCommand 压入命令   在update时候轮询再按需求执行<br>
+FB表格处理  NPOI读写xls + FlatBuffer序列化<br>
+Animation<br>
+BattleLogic<br>
+Framework_Recycle  FrameStack<br>
+UIFramework</p>
+<p>神陵武装<br>
+动物大联盟<br>
+勇闯地下城<br>
+街机三国<br>
+暗夜格斗<br>
+DNF Extractor 提取资源<br>
+#性能优化<br>
+数据Init之类的  都只是传入数据，而不执行Init方法。等该执行的时候才去执行<br>
 粒子转序列帧贴图播放<br>
-2D角色转RPG通道然后从key取色<br>
+2D角色转RBG通道然后从key取色，分层  ，每个通道的颜色代表调色盘第几位，第0位必须是空颜色。 渲染是靠自己写shader和材质。<br>
+DNLAtlasElement里 rect去合图里截取方块，然后pivot记录这个方块在实际渲染的偏移。通过原图在旧的500x500的图的中心点偏移量获得。这个pivot对应Sprite.Create时的pivot<br>
+mat.SetVector(DNLSpriteShader.PROPERTYID_CHANNELMASK)</p>
+<p>图片打包是用 github -&gt; juj / RectangleBinPack<br>
+shadow是用原图渲染到地上，并且只有某几个部分有投影<br>
 重写unity的image UI 通过OnPopulateMesh 重新绘制mesh的形状<br>
-AStar 的OpenList用MinHeap  Heap是堆</p>
-
+AStar 的OpenList用MinHeap  Heap是堆<br>
+AABB不可以旋转     OBB可以旋转<br>
+项目UI框架gameframework写的MVC   view 和frame分开<br>
+用数组模拟最大堆<br>
+用scriptObject存储数据，实际runtime转为二进制<br>
+DelayCaller.cs<br>
+乱世的UI框架<br>
+Unitask<br>
+TextAnimation<br>
+Animancer<br>
+Odin<br>
+状态机<br>
+自己写一些摄像机跟随代替pro camera 2d<br>
+使用BetterStreamingAsset读取streamingAsset资源<br>
+Spine动画的导入<br>
+按位运算<br>
+LittleEndian</p>
+<h2 id="LRU（Least-Recently-Used）最近最少使用算法">LRU（Least Recently Used）最近最少使用算法</h2>
+<p>思想：最近被使用過的資料，那麼將來被訪問的概率也多，最近沒有被訪問，那麼將來被訪問的概率也比較低。<br>
+如圖，P1到P7都有最後一次使用的時間，今天如果滿了，我們就淘汰最久沒被使用的，如圖的P7。<br>
+但這想法並不考慮頻率，所以會有問題，例如今天突然需要遍歷資料，那這個遍歷會將真正常用的資料淘汰出cache。<br>
+![[Pasted image 20230315165931.png]]</p>
+<p>c# LINQ</p>
+<ul>
+<li>Map,对应C#的Select</li>
+<li>Filter,对应C#的Where</li>
+<li>Fold,对应C#的Aggregate</li>
+<li>FlattMap 对应 SelectMany</li>
+</ul>
+<p>png alpha color clear</p>
+<figure class="highlight c#"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">using</span> UnityEngine;</span><br><span class="line"><span class="keyword">using</span> UnityEditor;</span><br><span class="line"></span><br><span class="line"><span class="keyword">public</span> <span class="keyword">class</span> <span class="title">PngAlphaClearColor</span> : <span class="title">EditorWindow</span></span><br><span class="line">&#123;</span><br><span class="line">    <span class="keyword">public</span> Texture2D texture2D;</span><br><span class="line"></span><br><span class="line">    [<span class="meta">MenuItem(<span class="string">&quot;Test/PngAlphaClearColor&quot;</span>)</span>]</span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title">ShowWindow</span>()</span></span><br><span class="line">    &#123;</span><br><span class="line">        EditorWindow.GetWindow(<span class="keyword">typeof</span>(PngAlphaClearColor));</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="function"><span class="keyword">private</span> <span class="keyword">void</span> <span class="title">OnGUI</span>()</span></span><br><span class="line">    &#123;</span><br><span class="line">        texture2D = EditorGUILayout.ObjectField(texture2D, <span class="keyword">typeof</span>(Texture2D), <span class="literal">false</span>) <span class="keyword">as</span> Texture2D;</span><br><span class="line">        <span class="keyword">if</span> (GUILayout.Button(<span class="string">&quot;Test&quot;</span>))</span><br><span class="line">        &#123;</span><br><span class="line">            Test();</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">void</span> <span class="title">Test</span>()</span></span><br><span class="line">    &#123;</span><br><span class="line">        <span class="built_in">string</span> path = AssetDatabase.GetAssetPath(texture2D);</span><br><span class="line">        TextureImporter ti = (TextureImporter)TextureImporter.GetAtPath(path);</span><br><span class="line">        ti.isReadable = <span class="literal">true</span>;</span><br><span class="line">        AssetDatabase.ImportAsset(path);</span><br><span class="line">        <span class="keyword">for</span> (<span class="built_in">int</span> i = <span class="number">0</span>; i &lt; texture2D.width; ++i)</span><br><span class="line">        &#123;</span><br><span class="line">            <span class="keyword">for</span> (<span class="built_in">int</span> j = <span class="number">0</span>; j &lt; texture2D.height; ++j)</span><br><span class="line">            &#123;</span><br><span class="line">                Color color = texture2D.GetPixel(i, j);</span><br><span class="line">                <span class="keyword">if</span> (color.a == <span class="number">0</span>)</span><br><span class="line">                &#123;</span><br><span class="line">                    texture2D.SetPixel(i, j, <span class="keyword">new</span> Color(<span class="number">0</span>, <span class="number">0</span>, <span class="number">0</span>, <span class="number">0</span>));</span><br><span class="line">                &#125;</span><br><span class="line">            &#125;</span><br><span class="line">        &#125;</span><br><span class="line"></span><br><span class="line">        System.IO.File.WriteAllBytes(path, texture2D.EncodeToPNG());</span><br><span class="line">        ti.isReadable = <span class="literal">false</span>;</span><br><span class="line">        AssetDatabase.ImportAsset(path);</span><br><span class="line">        AssetDatabase.Refresh();</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
     </div>
 
     
@@ -276,20 +357,22 @@ AStar 的OpenList用MinHeap  Heap是堆</p>
 	</div>
     <footer class="post-footer">
           <div class="post-tags">
-              <a href="/tags/%E6%97%A5%E5%B8%B8-%E6%9D%AD%E5%B7%9E-%E7%A8%8B%E5%BA%8F/" rel="tag"># 日常, 杭州 ,程序</a>
+              <a href="/tags/%E6%97%A5%E5%B8%B8/" rel="tag"># 日常</a>
+              <a href="/tags/%E6%9D%AD%E5%B7%9E/" rel="tag"># 杭州</a>
+              <a href="/tags/%E7%A8%8B%E5%BA%8F/" rel="tag"># 程序</a>
           </div>
 
         
 
           <div class="post-nav">
             <div class="post-nav-item">
-                <a href="/FirstUrlBlog/" rel="prev" title="搭建日志">
-                  <i class="fa fa-chevron-left"></i> 搭建日志
+                <a href="/20230212/" rel="prev" title="西溪湿地">
+                  <i class="fa fa-chevron-left"></i> 西溪湿地
                 </a>
             </div>
             <div class="post-nav-item">
-                <a href="/20230205/" rel="next" title="元宵">
-                  元宵 <i class="fa fa-chevron-right"></i>
+                <a href="/20230910/" rel="next" title="柯桥古镇">
+                  柯桥古镇 <i class="fa fa-chevron-right"></i>
                 </a>
             </div>
           </div>
@@ -302,6 +385,7 @@ AStar 的OpenList用MinHeap  Heap是堆</p>
 
 
 
+    <div class="comments gitalk-container"></div>
 </div>
   </main>
 
@@ -358,9 +442,11 @@ AStar 的OpenList用MinHeap  Heap是堆</p>
 
   
   <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js" integrity="sha256-XL2inqUJaslATFnHdJOi9GfQ60on8Wx1C2H8DYiN1xY=" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/next-theme-pjax/0.6.0/pjax.min.js" integrity="sha256-vxLn1tSKWD4dqbMRyv940UYw4sXgMtYcK6reefzZrao=" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js" integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js" integrity="sha256-yt2kYMy0w8AbtF89WXb2P1rfjcP/HTHLT7097U8Y5b8=" crossorigin="anonymous"></script>
-<script src="/js/comments.js"></script><script src="/js/utils.js"></script><script src="/js/motion.js"></script><script src="/js/schemes/muse.js"></script><script src="/js/next-boot.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/lozad.js/1.16.0/lozad.min.js" integrity="sha256-mOFREFhqmHeQbXpK2lp4nA3qooVgACfh88fpJftLBbc=" crossorigin="anonymous"></script>
+<script src="/js/comments.js"></script><script src="/js/utils.js"></script><script src="/js/motion.js"></script><script src="/js/schemes/muse.js"></script><script src="/js/next-boot.js"></script><script src="/js/pjax.js"></script>
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/hexo-generator-searchdb/1.4.1/search.js" integrity="sha256-1kfA5uHPf65M5cphT2dvymhkuyHPQp5A53EGZOnOLmc=" crossorigin="anonymous"></script>
 <script src="/js/third-party/search/local-search.js"></script>
@@ -372,22 +458,51 @@ AStar 的OpenList用MinHeap  Heap是堆</p>
   <script src="/js/third-party/pace.js"></script>
 
   
-  <script async src="https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+  <script data-pjax async src="https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
 
 
 
 
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/quicklink/2.3.0/quicklink.umd.js" integrity="sha256-yvJQOINiH9fWemHn0vCA5lsHWJaHs6/ZmO+1Ft04SvM=" crossorigin="anonymous"></script>
+  <script class="next-config" data-name="quicklink" type="application/json">{"enable":true,"home":false,"archive":false,"delay":true,"timeout":3000,"priority":true,"url":"http://ygonexus.github.io/20230216/"}</script>
+  <script src="/js/third-party/quicklink.js"></script>
 
-  
 
   <script async src="/js/cursor/fireworks.js"></script>
 
 
 
+
+
+
+
+
+<script>
+  var OriginTitile = document.title;
+  var titleTime;
+  document.addEventListener("visibilitychange", function() {
+    if (document.hidden) {
+      document.title = "(つェ⊂) " + OriginTitile;
+      clearTimeout(titleTime);
+    } else {
+      document.title = "(*´∇｀*) 咦，竟然被你发现了~" + OriginTitile;
+      titleTime = setTimeout(function() {
+        document.title = OriginTitile;
+      }, 2000);
+    }
+  });
+</script>
+
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/gitalk/1.8.0/gitalk.css" integrity="sha256-AJnUHL7dBv6PGaeyPQJcgQPDjt/Hn/PvYZde1iqfp8U=" crossorigin="anonymous">
+
+<script class="next-config" data-name="gitalk" type="application/json">{"enable":true,"github_id":"YgoNexus","repo":"ygonexus.github.io","client_id":"5d905d2800a3bd938803","client_secret":"52b9f2a973e61cca2640a9168d3d6ffffc5394fd","admin_user":"YgoNexus","distraction_free_mode":true,"proxy":"https://cors-anywhere.herokuapp.com/https://github.com/login/oauth/access_token","language":"zh-CN","js":{"url":"https://cdnjs.cloudflare.com/ajax/libs/gitalk/1.8.0/gitalk.min.js","integrity":"sha256-MVK9MGD/XJaGyIghSVrONSnoXoGh3IFxLw0zfvzpxR4="},"path_md5":"d77c387faa5898e122cd4b40ab5bf1ac"}</script>
+<script src="/js/third-party/comments/gitalk.js"></script>
+
   
-<link rel="stylesheet" href="/dist/APlayer.min.css">
-<div id="aplayer"></div>
-<script type="text/javascript" src="/dist/APlayer.min.js"></script>
-<script type="text/javascript" src="/dist/music.js"></script>
+	<link rel="stylesheet" href="/dist/APlayer.min.css">
+	<div id="aplayer"></div>
+	<script type="text/javascript" src="/dist/APlayer.min.js"></script>
+	<script type="text/javascript" src="/dist/music.js"></script>
 </body>
 </html>

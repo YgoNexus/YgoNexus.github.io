@@ -20,14 +20,14 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pace/1.2.4/themes/blue/pace-theme-flat-top.css">
   <script src="https://cdnjs.cloudflare.com/ajax/libs/pace/1.2.4/pace.min.js" integrity="sha256-gqd7YTjg/BtfqWSwsJOvndl0Bxc8gFImLEkXQT8+qj0=" crossorigin="anonymous"></script>
 
-<script class="next-config" data-name="main" type="application/json">{"hostname":"ygonexus.github.io","root":"/","images":"/images","scheme":"Muse","darkmode":false,"version":"8.14.2","exturl":false,"sidebar":{"position":"right","display":"post","padding":18,"offset":12},"copycode":{"enable":false,"style":null},"bookmark":{"enable":false,"color":"#222","save":"auto"},"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"stickytabs":false,"motion":{"enable":true,"async":false,"transition":{"menu_item":"fadeInDown","post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"prism":false,"i18n":{"placeholder":"搜索...","empty":"没有找到任何搜索结果：${query}","hits_time":"找到 ${hits} 个搜索结果（用时 ${time} 毫秒）","hits":"找到 ${hits} 个搜索结果"},"path":"/search.xml","localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false}}</script><script src="/js/config.js"></script>
+<script class="next-config" data-name="main" type="application/json">{"hostname":"ygonexus.github.io","root":"/","images":"/images","scheme":"Muse","darkmode":false,"version":"8.14.2","exturl":false,"sidebar":{"position":"right","display":"post","padding":18,"offset":12},"copycode":{"enable":false,"style":null},"bookmark":{"enable":false,"color":"#222","save":"auto"},"mediumzoom":false,"lazyload":true,"pangu":false,"comments":{"style":"tabs","active":"gitalk","storage":true,"lazyload":false,"nav":null,"activeClass":"gitalk"},"stickytabs":false,"motion":{"enable":true,"async":false,"transition":{"menu_item":"fadeInDown","post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"prism":false,"i18n":{"placeholder":"搜索...","empty":"没有找到任何搜索结果：${query}","hits_time":"找到 ${hits} 个搜索结果（用时 ${time} 毫秒）","hits":"找到 ${hits} 个搜索结果"},"path":"/search.xml","localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false}}</script><script src="/js/config.js"></script>
 
-    <meta name="description" content="El Psy Congroo ╮(╯▽╰)╭">
+    <meta name="description" content="(function(){var player &#x3D; new DPlayer({&quot;container&quot;:document.getElementById(&quot;dplayer0&quot;),&quot;video&quot;:{&quot;url&quot;:&quot;http:&#x2F;&#x2F;clips.vorwaerts-gmbh.de&#x2F;big_buck_bunny.mp4&quot;}});window.dplayers||(window.dplayers&#x3D;[]);windo">
 <meta property="og:type" content="article">
 <meta property="og:title" content="搭建日志">
 <meta property="og:url" content="http://ygonexus.github.io/FirstUrlBlog/index.html">
 <meta property="og:site_name" content="DA">
-<meta property="og:description" content="El Psy Congroo ╮(╯▽╰)╭">
+<meta property="og:description" content="(function(){var player &#x3D; new DPlayer({&quot;container&quot;:document.getElementById(&quot;dplayer0&quot;),&quot;video&quot;:{&quot;url&quot;:&quot;http:&#x2F;&#x2F;clips.vorwaerts-gmbh.de&#x2F;big_buck_bunny.mp4&quot;}});window.dplayers||(window.dplayers&#x3D;[]);windo">
 <meta property="og:locale" content="zh_CN">
 <meta property="og:image" content="http://ygonexus.github.io/FirstUrlBlog/1.png">
 <meta property="og:image" content="http://ygonexus.github.io/FirstUrlBlog/1.png">
@@ -37,7 +37,7 @@
 <meta property="og:image" content="http://ygonexus.github.io/FirstUrlBlog/1.png">
 <meta property="og:image" content="http://ygonexus.github.io/FirstUrlBlog/1.PNG">
 <meta property="article:published_time" content="2023-02-05T03:18:18.000Z">
-<meta property="article:modified_time" content="2023-02-14T16:17:19.019Z">
+<meta property="article:modified_time" content="2023-09-20T14:20:41.293Z">
 <meta property="article:author" content="YgoNexus">
 <meta property="article:tag" content="Hexo,NexT">
 <meta name="twitter:card" content="summary">
@@ -67,7 +67,7 @@
 <link rel="alternate" href="/atom.xml" title="DA" type="application/atom+xml">
 <link rel="stylesheet" href="\assets\css\APlayer.min.css" class="aplayer-style-marker">
 <script src="\assets\js\APlayer.min.js" class="aplayer-script-marker"></script>
-</head>
+<script src="/assets/js/DPlayer.min.js"></script></head>
 
 <body itemscope itemtype="http://schema.org/WebPage" class="use-motion">
   <div class="headband">
@@ -169,12 +169,12 @@
   <nav class="site-state">
       <div class="site-state-item site-state-posts">
         <a href="/archives/">
-          <span class="site-state-item-count">9</span>
+          <span class="site-state-item-count">10</span>
           <span class="site-state-item-name">日志</span>
         </a>
       </div>
       <div class="site-state-item site-state-tags">
-        <span class="site-state-item-count">6</span>
+        <span class="site-state-item-count">10</span>
         <span class="site-state-item-name">标签</span>
       </div>
   </nav>
@@ -240,13 +240,6 @@
 
       <time title="创建时间：2023-02-05 11:18:18" itemprop="dateCreated datePublished" datetime="2023-02-05T11:18:18+08:00">2023-02-05</time>
     </span>
-    <span class="post-meta-item">
-      <span class="post-meta-item-icon">
-        <i class="far fa-calendar-check"></i>
-      </span>
-      <span class="post-meta-item-text">更新于</span>
-      <time title="修改时间：2023-02-15 00:17:19" itemprop="dateModified" datetime="2023-02-15T00:17:19+08:00">2023-02-15</time>
-    </span>
 
   
     <span class="post-meta-item" title="阅读次数" id="busuanzi_container_page_pv">
@@ -265,8 +258,44 @@
     
     
     <div class="post-body" itemprop="articleBody">
-        <p>El Psy Congroo ╮(╯▽╰)╭</p>
-<span id="more"></span>
+        <span id="more"></span>
+<div id="dplayer0" class="dplayer hexo-tag-dplayer-mark" style="margin-bottom: 20px;"></div><script>(function(){var player = new DPlayer({"container":document.getElementById("dplayer0"),"video":{"url":"http://clips.vorwaerts-gmbh.de/big_buck_bunny.mp4"}});window.dplayers||(window.dplayers=[]);window.dplayers.push(player);})()</script> 
+<div id="dplayer1" class="dplayer hexo-tag-dplayer-mark" style="margin-bottom: 20px;"></div><script>(function(){var player = new DPlayer({"container":document.getElementById("dplayer1"),"theme":"#FADFA3","lang":"zh-cn","screenshot":true,"hotkey":true,"preload":"auto","volume":0.7,"mutex":true,"video":{"url":"/video/data/oceans.mp4","pic":"/video/cover/831.jpg"}});window.dplayers||(window.dplayers=[]);window.dplayers.push(player);})()</script> 
+<p>before OK</p>
+<dialog id="dialog">
+    <input type="text">
+    <button id="close">ok</button>
+</dialog>
+<dialog id="dialog">
+    <input type="text">
+    <button id="close">ok</button>
+</dialog>
+afterOK
+<p><button id="openBtn">打开弹框</button></p>
+<script type="text/javascript"> function rec() { 
+console.log("AAAA");
+var mymessage=confirm(“你喜欢javascript吗？”);
+if(mymessage==true) { document.write(“很好，加油！”); }
+else if(mymessage==false) 
+{ document.write(“要学javascript，而且必须学”); } } </script>
+<head></head>
+<body>
+	<input type=“button” name=“button” value=“点击我，弹出确认对话框” onclick=“rec()” />
+</body>
+<script >   
+console.log("BBB")
+const dialog = document.getElementById('dialog')     const openBtn = document.getElementById('openBtn')     const closeBtn = document.getElementById('close')        openBtn.addEventListener('click', () => {      
+console.log("AAAA");
+// 打开弹框       
+dialog.showModal();  
+})    
+closeBtn.addEventListener('click', () => {       
+// 隐藏弹框    
+dialog.close()   
+})
+</script>
+<p>El Psy Congroo ╮(╯▽╰)╭</p>
+<!--more-->
 <p> &amp;nbsp&amp;nbsp 空格 nbsp$~~~~~$.</p>
 <figure class="highlight c#"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">public</span> <span class="keyword">void</span> <span class="title">JustTestCSStyle</span>()</span></span><br><span class="line">&#123;</span><br><span class="line">	Console.WriteLine(<span class="number">233</span>);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 <p>Todo:<br>
@@ -282,12 +311,12 @@ md渲染器   比如代码渲染,空格渲染<br>
 <figure class="highlight cmd"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">npm uni hexo-generator-index</span><br><span class="line">npm install hexo-generator-index-pin-top --save</span><br></pre></td></tr></table></figure>
 <p>提供更好的 Markdown 渲染，主要有两点好处：脚注、MathJax。详情参考</p>
 
-        <div id="aplayer-ufXmOWDp" class="aplayer aplayer-tag-marker" style="margin-bottom: 20px;">
+        <div id="aplayer-uEMOhNGX" class="aplayer aplayer-tag-marker" style="margin-bottom: 20px;">
             <pre class="aplayer-lrc-content"></pre>
         </div>
         <script>
           var ap = new APlayer({
-            element: document.getElementById("aplayer-ufXmOWDp"),
+            element: document.getElementById("aplayer-uEMOhNGX"),
             narrow: false,
             autoplay: false,
             showlrc: false,
@@ -305,9 +334,9 @@ md渲染器   比如代码渲染,空格渲染<br>
 <p>当开启 Hexo 的 文章资源文件夹 功能时，可以将图片、音乐文件、歌词文件放入与文章对应的资源文件夹中，然后直接引用：</p>
 <p>npm uninstall hexo-renderer-marked<br>
 npm install hexo-renderer-pandoc</p>
-<div class="group-picture"><div class="group-picture-row"><div class="group-picture-column"><img src="/FirstUrlBlog/1.png" class="" width="233"></div><div class="group-picture-column"><img src="/FirstUrlBlog/1.png" class="" width="233"></div></div><div class="group-picture-row"><div class="group-picture-column"><img src="/FirstUrlBlog/1.png" class="" width="233"></div><div class="group-picture-column"><img src="/FirstUrlBlog/1.png" class="" width="233"></div><div class="group-picture-column"><img src="/FirstUrlBlog/1.png" class="" width="233"></div></div></div>
-<p>前面<img src="/FirstUrlBlog/1.png" class="" width="233">这个图片<br>
-<img src="1.PNG" alt=""></p>
+<div class="group-picture"><div class="group-picture-row"><div class="group-picture-column"><img data-src="/FirstUrlBlog/1.png" class="" width="233"></div><div class="group-picture-column"><img data-src="/FirstUrlBlog/1.png" class="" width="233"></div></div><div class="group-picture-row"><div class="group-picture-column"><img data-src="/FirstUrlBlog/1.png" class="" width="233"></div><div class="group-picture-column"><img data-src="/FirstUrlBlog/1.png" class="" width="233"></div><div class="group-picture-column"><img data-src="/FirstUrlBlog/1.png" class="" width="233"></div></div></div>
+<p>前面<img data-src="/FirstUrlBlog/1.png" class="" width="233">这个图片<br>
+<img data-src="1.PNG" alt=""></p>
 <!--![](FirstUrlBlog/1.PNG)  这个写法是从网页里找-->
 <p>npm uninstall hexo-renderer-marked<br>
 npm install hexo-renderer-pandoc</p>
@@ -340,7 +369,7 @@ npm install hexo-renderer-pandoc</p>
                 </a>
             </div>
             <div class="post-nav-item">
-                <a href="/20230216/" rel="next" title="元宵">
+                <a href="/20230205/" rel="next" title="元宵">
                   元宵 <i class="fa fa-chevron-right"></i>
                 </a>
             </div>
@@ -354,6 +383,7 @@ npm install hexo-renderer-pandoc</p>
 
 
 
+    <div class="comments gitalk-container"></div>
 </div>
   </main>
 
@@ -410,9 +440,11 @@ npm install hexo-renderer-pandoc</p>
 
   
   <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js" integrity="sha256-XL2inqUJaslATFnHdJOi9GfQ60on8Wx1C2H8DYiN1xY=" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/next-theme-pjax/0.6.0/pjax.min.js" integrity="sha256-vxLn1tSKWD4dqbMRyv940UYw4sXgMtYcK6reefzZrao=" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js" integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js" integrity="sha256-yt2kYMy0w8AbtF89WXb2P1rfjcP/HTHLT7097U8Y5b8=" crossorigin="anonymous"></script>
-<script src="/js/comments.js"></script><script src="/js/utils.js"></script><script src="/js/motion.js"></script><script src="/js/schemes/muse.js"></script><script src="/js/next-boot.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/lozad.js/1.16.0/lozad.min.js" integrity="sha256-mOFREFhqmHeQbXpK2lp4nA3qooVgACfh88fpJftLBbc=" crossorigin="anonymous"></script>
+<script src="/js/comments.js"></script><script src="/js/utils.js"></script><script src="/js/motion.js"></script><script src="/js/schemes/muse.js"></script><script src="/js/next-boot.js"></script><script src="/js/pjax.js"></script>
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/hexo-generator-searchdb/1.4.1/search.js" integrity="sha256-1kfA5uHPf65M5cphT2dvymhkuyHPQp5A53EGZOnOLmc=" crossorigin="anonymous"></script>
 <script src="/js/third-party/search/local-search.js"></script>
@@ -424,22 +456,51 @@ npm install hexo-renderer-pandoc</p>
   <script src="/js/third-party/pace.js"></script>
 
   
-  <script async src="https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+  <script data-pjax async src="https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
 
 
 
 
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/quicklink/2.3.0/quicklink.umd.js" integrity="sha256-yvJQOINiH9fWemHn0vCA5lsHWJaHs6/ZmO+1Ft04SvM=" crossorigin="anonymous"></script>
+  <script class="next-config" data-name="quicklink" type="application/json">{"enable":true,"home":false,"archive":false,"delay":true,"timeout":3000,"priority":true,"url":"http://ygonexus.github.io/FirstUrlBlog/"}</script>
+  <script src="/js/third-party/quicklink.js"></script>
 
-  
 
   <script async src="/js/cursor/fireworks.js"></script>
 
 
 
+
+
+
+
+
+<script>
+  var OriginTitile = document.title;
+  var titleTime;
+  document.addEventListener("visibilitychange", function() {
+    if (document.hidden) {
+      document.title = "(つェ⊂) " + OriginTitile;
+      clearTimeout(titleTime);
+    } else {
+      document.title = "(*´∇｀*) 咦，竟然被你发现了~" + OriginTitile;
+      titleTime = setTimeout(function() {
+        document.title = OriginTitile;
+      }, 2000);
+    }
+  });
+</script>
+
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/gitalk/1.8.0/gitalk.css" integrity="sha256-AJnUHL7dBv6PGaeyPQJcgQPDjt/Hn/PvYZde1iqfp8U=" crossorigin="anonymous">
+
+<script class="next-config" data-name="gitalk" type="application/json">{"enable":true,"github_id":"YgoNexus","repo":"ygonexus.github.io","client_id":"5d905d2800a3bd938803","client_secret":"52b9f2a973e61cca2640a9168d3d6ffffc5394fd","admin_user":"YgoNexus","distraction_free_mode":true,"proxy":"https://cors-anywhere.herokuapp.com/https://github.com/login/oauth/access_token","language":"zh-CN","js":{"url":"https://cdnjs.cloudflare.com/ajax/libs/gitalk/1.8.0/gitalk.min.js","integrity":"sha256-MVK9MGD/XJaGyIghSVrONSnoXoGh3IFxLw0zfvzpxR4="},"path_md5":"5bb2664d84fd8cfbb4456ad2e6519084"}</script>
+<script src="/js/third-party/comments/gitalk.js"></script>
+
   
-<link rel="stylesheet" href="/dist/APlayer.min.css">
-<div id="aplayer"></div>
-<script type="text/javascript" src="/dist/APlayer.min.js"></script>
-<script type="text/javascript" src="/dist/music.js"></script>
+	<link rel="stylesheet" href="/dist/APlayer.min.css">
+	<div id="aplayer"></div>
+	<script type="text/javascript" src="/dist/APlayer.min.js"></script>
+	<script type="text/javascript" src="/dist/music.js"></script>
 </body>
 </html>
