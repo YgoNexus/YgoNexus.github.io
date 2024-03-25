@@ -15,22 +15,29 @@ if(!initialized)
 		mutex: true,
 		listFolded: false,
 		listMaxHeight: '300px',
-		lrcType: 1,
+		// lrcType: 1,
 		// 3是使用audio.lrc   1是JS  2是HTML
 		audio: [
-		  {
-			name: "敢归云间宿",
-			artist: '三无',
-			url: 'https://drive.google.com/uc?export=download&id=1u7dE6gzMjclBb0_B2uln50AMIdVEIuVe',
-			cover: '/music/cover/敢归云间宿.png',
-			// lrc: '/music/lyrics/敢归云间宿.lrc',
-		  },
 		  {
 			name: '老教室',
 			artist: '831',
 			url: '/music/老教室.flac',
 			cover: '/music/cover/831_大逃杀.jpg',
 			// lrc: '/music/lyrics/老教室.lrc',
+		  },
+		  {
+			name: "烟花易冷",
+			artist: '剪影姐',
+			url: 'https://public.dm.files.1drv.com/y4m0iQIJ6hgOaPniQlD09OvlAwiCY-IXV9XSzAEVYR2xEVzhv_0ntpX_Kq6Fjku6q0lTICcb8a8hMPWkqPAQoW4prDweBmp8awreaJaV5j3COgpEJCoSLfjTPRIXg054ukV4xxNfgjRZ-66WVumj7LV6KjpmDwQjMMC6sJOghhzgixAwVpaPL3wClxdQQtj83vr3GfgLzqDLkcNdAAn9qh086f11IyWneLU5CAxJwUG2u0?AVOverride=1',
+			cover: '/music/cover/敢归云间宿.png',
+			// lrc: '/music/lyrics/敢归云间宿.lrc',
+		  },
+		  {
+			name: "敢归云间宿",
+			artist: '三无',
+			url: 'https://drive.google.com/uc?export=download&id=1u7dE6gzMjclBb0_B2uln50AMIdVEIuVe',
+			cover: '/music/cover/敢归云间宿.png',
+			// lrc: '/music/lyrics/敢归云间宿.lrc',
 		  },
 		  {
 			name: "敢归云间宿",

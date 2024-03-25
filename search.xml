@@ -1,142 +1,55 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>柯桥古镇</title>
-    <url>/20230910/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><div id="dplayer2" class="dplayer hexo-tag-dplayer-mark" style="margin-bottom: 20px;"></div><script>(function(){var player = new DPlayer({"container":document.getElementById("dplayer2"),"theme":"#FADFA3","lang":"zh-cn","screenshot":true,"hotkey":true,"preload":"auto","volume":0.7,"mutex":true,"video":{"url":"/video/data/LowFramerate.mp4","pic":"/video/cover/Fountain.jpg"}});window.dplayers||(window.dplayers=[]);window.dplayers.push(player);})()</script> 
-<p>为了看个喷泉可把某人给累坏了   XD</p>
-<div class="group-picture"><div class="group-picture-row"><div class="group-picture-column"><img data-src="/20230910/1.jpg" class=""></div><div class="group-picture-column"><img data-src="/20230910/2.jpg" class=""></div></div><div class="group-picture-row"><div class="group-picture-column"><img data-src="/20230910/3.jpg" class=""></div><div class="group-picture-column"><img data-src="/20230910/4.jpg" class=""></div></div></div>]]></content>
-      <tags>
-        <tag>绍兴</tag>
-        <tag>旅游</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>工作笔记</title>
-    <url>/20230216/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>#工作<br>
-看《unity动作游戏开发实战》<br>
-DNLSprite_Normal   line-&gt; 223<br>
-shader 写在  Sprite-DNL.shader</p>
-<p>配置Git Bash使用SSH协议3步：</p>
-<ol>
-<li>生成SSH Key：打开Git Bash，运行以下命令：</li>
-</ol>
-<p><code>$ ssh-keygen -t rsa -b 4096 -C &quot;your_email@example.com&quot;</code></p>
-<p>然后按提示输入密码和文件的存储路径。</p>
-<ol start="2">
-<li>添加SSH Key到ssh-agent：运行以下命令：</li>
-</ol>
-<p><code>$ eval &quot;$(ssh-agent -s)&quot; $ ssh-add ~/.ssh/id_rsa</code><br>
-然后Github那边添加SSH</p>
-<p>Hexo安装<br>
-安装nodejs，npm安装<br>
-npm install -g hexo-cli<br>
-就可以启动项目了<br>
-hexo s --debug  本地测试<br>
-hexo g -d 部署到github</p>
-<p>npm install hexo-tag-dplayer -s<br>
-npm install hexo-tag-aplayer -s</p>
-<div style="position: relative; width: 100%; height: 0; padding-bottom: 75%;">
-<iframe src="//player.bilibili.com/player.html?aid=831027623&bvid=BV1J34y1P7FY&cid=1270320148&p=1&high_quality=1&danmaku=0" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" style="position: absolute; width: 100%; height: 100%; left: 0; top: 0;"> </iframe>
-</div>
-<p>#云际<br>
-21楼是律师事务所<br>
-9楼是婚纱的<br>
-安迪推荐了  鱼油  21金维他   善存 买多维</p>
-<p>UI界面资源脚本 CollectUISprites.cs<br>
-UIFrame-生成代码MonoScript到预制体的引用<br>
-IGameTools-&gt;TextureImportSetting 批量设置图片格式<br>
-GlobalNetMessage -&gt; Line 356 是新手引导相关<br>
-服务器5人<br>
-系统5人<br>
-战斗4人<br>
-引擎7~8人<br>
-自己写一个框架  包含AB包资源加载<br>
-Update轮询，对象池管理<br>
-Editor有专门的EditorPrefs存数据</p>
-<p>TMGeNode.PushCommand 压入命令   在update时候轮询再按需求执行<br>
-FB表格处理  NPOI读写xls + FlatBuffer序列化<br>
-Animation<br>
-BattleLogic<br>
-Framework_Recycle  FrameStack<br>
-UIFramework</p>
-<p>神陵武装<br>
-动物大联盟<br>
-勇闯地下城<br>
-街机三国<br>
-暗夜格斗<br>
-DNF Extractor 提取资源<br>
-#性能优化<br>
-数据Init之类的  都只是传入数据，而不执行Init方法。等该执行的时候才去执行<br>
-粒子转序列帧贴图播放<br>
-2D角色转RBG通道然后从key取色，分层  ，每个通道的颜色代表调色盘第几位，第0位必须是空颜色。 渲染是靠自己写shader和材质。<br>
-DNLAtlasElement里 rect去合图里截取方块，然后pivot记录这个方块在实际渲染的偏移。通过原图在旧的500x500的图的中心点偏移量获得。这个pivot对应Sprite.Create时的pivot<br>
-mat.SetVector(DNLSpriteShader.PROPERTYID_CHANNELMASK)</p>
-<p>图片打包是用 github -&gt; juj / RectangleBinPack<br>
-shadow是用原图渲染到地上，并且只有某几个部分有投影<br>
-重写unity的image UI 通过OnPopulateMesh 重新绘制mesh的形状<br>
-AStar 的OpenList用MinHeap  Heap是堆<br>
-AABB不可以旋转     OBB可以旋转<br>
-项目UI框架gameframework写的MVC   view 和frame分开<br>
-用数组模拟最大堆<br>
-用scriptObject存储数据，实际runtime转为二进制<br>
-DelayCaller.cs<br>
-乱世的UI框架<br>
-Unitask<br>
-TextAnimation<br>
-Animancer<br>
-Odin<br>
-状态机<br>
-自己写一些摄像机跟随代替pro camera 2d<br>
-使用BetterStreamingAsset读取streamingAsset资源<br>
-Spine动画的导入<br>
-按位运算<br>
-LittleEndian</p>
-<h2 id="LRU（Least-Recently-Used）最近最少使用算法">LRU（Least Recently Used）最近最少使用算法</h2>
-<p>思想：最近被使用過的資料，那麼將來被訪問的概率也多，最近沒有被訪問，那麼將來被訪問的概率也比較低。<br>
-如圖，P1到P7都有最後一次使用的時間，今天如果滿了，我們就淘汰最久沒被使用的，如圖的P7。<br>
-但這想法並不考慮頻率，所以會有問題，例如今天突然需要遍歷資料，那這個遍歷會將真正常用的資料淘汰出cache。<br>
-![[Pasted image 20230315165931.png]]</p>
-<p>c# LINQ</p>
-<ul>
-<li>Map,对应C#的Select</li>
-<li>Filter,对应C#的Where</li>
-<li>Fold,对应C#的Aggregate</li>
-<li>FlattMap 对应 SelectMany</li>
-</ul>
-<p>png alpha color clear</p>
-<figure class="highlight c#"><table><tr><td class="code"><pre><span class="line"><span class="keyword">using</span> UnityEngine;</span><br><span class="line"><span class="keyword">using</span> UnityEditor;</span><br><span class="line"></span><br><span class="line"><span class="keyword">public</span> <span class="keyword">class</span> <span class="title">PngAlphaClearColor</span> : <span class="title">EditorWindow</span></span><br><span class="line">&#123;</span><br><span class="line">    <span class="keyword">public</span> Texture2D texture2D;</span><br><span class="line"></span><br><span class="line">    [<span class="meta">MenuItem(<span class="string">&quot;Test/PngAlphaClearColor&quot;</span>)</span>]</span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title">ShowWindow</span>()</span></span><br><span class="line">    &#123;</span><br><span class="line">        EditorWindow.GetWindow(<span class="keyword">typeof</span>(PngAlphaClearColor));</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="function"><span class="keyword">private</span> <span class="keyword">void</span> <span class="title">OnGUI</span>()</span></span><br><span class="line">    &#123;</span><br><span class="line">        texture2D = EditorGUILayout.ObjectField(texture2D, <span class="keyword">typeof</span>(Texture2D), <span class="literal">false</span>) <span class="keyword">as</span> Texture2D;</span><br><span class="line">        <span class="keyword">if</span> (GUILayout.Button(<span class="string">&quot;Test&quot;</span>))</span><br><span class="line">        &#123;</span><br><span class="line">            Test();</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">void</span> <span class="title">Test</span>()</span></span><br><span class="line">    &#123;</span><br><span class="line">        <span class="built_in">string</span> path = AssetDatabase.GetAssetPath(texture2D);</span><br><span class="line">        TextureImporter ti = (TextureImporter)TextureImporter.GetAtPath(path);</span><br><span class="line">        ti.isReadable = <span class="literal">true</span>;</span><br><span class="line">        AssetDatabase.ImportAsset(path);</span><br><span class="line">        <span class="keyword">for</span> (<span class="built_in">int</span> i = <span class="number">0</span>; i &lt; texture2D.width; ++i)</span><br><span class="line">        &#123;</span><br><span class="line">            <span class="keyword">for</span> (<span class="built_in">int</span> j = <span class="number">0</span>; j &lt; texture2D.height; ++j)</span><br><span class="line">            &#123;</span><br><span class="line">                Color color = texture2D.GetPixel(i, j);</span><br><span class="line">                <span class="keyword">if</span> (color.a == <span class="number">0</span>)</span><br><span class="line">                &#123;</span><br><span class="line">                    texture2D.SetPixel(i, j, <span class="keyword">new</span> Color(<span class="number">0</span>, <span class="number">0</span>, <span class="number">0</span>, <span class="number">0</span>));</span><br><span class="line">                &#125;</span><br><span class="line">            &#125;</span><br><span class="line">        &#125;</span><br><span class="line"></span><br><span class="line">        System.IO.File.WriteAllBytes(path, texture2D.EncodeToPNG());</span><br><span class="line">        ti.isReadable = <span class="literal">false</span>;</span><br><span class="line">        AssetDatabase.ImportAsset(path);</span><br><span class="line">        AssetDatabase.Refresh();</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>]]></content>
-      <tags>
-        <tag>日常</tag>
-        <tag>杭州</tag>
-        <tag>程序</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>西溪湿地</title>
-    <url>/20230212/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><div class="group-picture"><div class="group-picture-row"><div class="group-picture-column"><img src="/20230212/IMG_20230212_153834.jpg" class=""></div><div class="group-picture-column"><img src="/20230212/IMG_20230212_155016.jpg" class=""></div><div class="group-picture-column"><img src="/20230212/IMG_20230212_155022.jpg" class=""></div></div><div class="group-picture-row"><div class="group-picture-column"><img src="/20230212/IMG_20230212_155738.jpg" class=""></div><div class="group-picture-column"><img src="/20230212/IMG_20230212_160322.jpg" class=""></div><div class="group-picture-column"><img src="/20230212/IMG_20230212_160326.jpg" class=""></div></div><div class="group-picture-row"><div class="group-picture-column"><img src="/20230212/IMG_20230212_160402.jpg" class=""></div><div class="group-picture-column"><img src="/20230212/IMG_20230212_160421.jpg" class=""></div><div class="group-picture-column"><img src="/20230212/IMG_20230212_160452.jpg" class=""></div></div><div class="group-picture-row"><div class="group-picture-column"><img src="/20230212/IMG_20230212_160607.jpg" class=""></div><div class="group-picture-column"><img src="/20230212/IMG_20230212_160905.jpg" class=""></div><div class="group-picture-column"><img src="/20230212/IMG_20230212_163137.jpg" class=""></div></div><div class="group-picture-row"><div class="group-picture-column"><img src="/20230212/IMG_20230212_163233.jpg" class=""></div><div class="group-picture-column"><img src="/20230212/IMG_20230212_163236.jpg" class=""></div><div class="group-picture-column"><img src="/20230212/IMG_20230212_163311.jpg" class=""></div></div><div class="group-picture-row"><div class="group-picture-column"><img src="/20230212/IMG_20230212_180655.jpg" class=""></div></div></div>]]></content>
+    <title>元宵</title>
+    <url>/20230205/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><div class="group-picture"><div class="group-picture-row"><div class="group-picture-column"><img data-src="/20230205/IMG_20230205_180247.avif" class="" width="233"></div><div class="group-picture-column"><img data-src="/20230205/IMG_20230205_180253.avif" class="" width="233"></div></div></div>
+<p>大姨厨艺真好</p>
+<p>西湖瞎逛 ╮(╯▽╰)╭  还好没去挤城市广场.</p>
+<div class="group-picture"><div class="group-picture-row"><div class="group-picture-column"><img data-src="/20230205/IMG_20230205_193145.avif" class="" width="233"></div></div><div class="group-picture-row"><div class="group-picture-column"><img data-src="/20230205/IMG_20230205_194304.avif" class="" width="233"></div><div class="group-picture-column"><img data-src="/20230205/IMG_20230205_194306.avif" class="" width="233"></div><div class="group-picture-column"><img data-src="/20230205/IMG_20230205_194307.avif" class="" width="233"></div></div><div class="group-picture-row"><div class="group-picture-column"><img data-src="/20230205/IMG_20230205_195010.avif" class="" width="233"></div><div class="group-picture-column"><img data-src="/20230205/IMG_20230205_195707.avif" class="" width="233"></div><div class="group-picture-column"><img data-src="/20230205/IMG_20230205_201512.avif" class="" width="233"></div></div></div>]]></content>
       <tags>
         <tag>日常, 杭州</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>动漫博物馆</title>
+    <url>/20221113/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>白马湖</p>
+<div class="group-picture"><div class="group-picture-row"><div class="group-picture-column"><img data-src="/20221113/IMG_20221113_133808.avif" class=""></div><div class="group-picture-column"><img data-src="/20221113/IMG_20221113_133821.avif" class=""></div><div class="group-picture-column"><img data-src="/20221113/IMG_20221113_134940.avif" class=""></div></div><div class="group-picture-row"><div class="group-picture-column"><img data-src="/20221113/IMG_20221113_135020.avif" class=""></div><div class="group-picture-column"><img data-src="/20221113/IMG_20221113_135132.avif" class=""></div><div class="group-picture-column"><img data-src="/20221113/IMG_20221113_135136.avif" class=""></div></div><div class="group-picture-row"><div class="group-picture-column"><img data-src="/20221113/IMG_20221113_135159.avif" class=""></div><div class="group-picture-column"><img data-src="/20221113/IMG_20221113_135221.avif" class=""></div><div class="group-picture-column"><img data-src="/20221113/IMG_20221113_140058.avif" class=""></div></div><div class="group-picture-row"><div class="group-picture-column"><img data-src="/20221113/IMG_20221113_140106.avif" class=""></div><div class="group-picture-column"><img data-src="/20221113/IMG_20221113_142338.avif" class=""></div><div class="group-picture-column"><img data-src="/20221113/IMG_20221113_143900.avif" class=""></div></div><div class="group-picture-row"><div class="group-picture-column"><img data-src="/20221113/IMG_20221113_172302.avif" class=""></div></div></div>]]></content>
+      <tags>
+        <tag>日常,杭州</tag>
       </tags>
   </entry>
   <entry>
     <title>拉喜街</title>
     <url>/20230211/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>人山人海. 拘谨到没拿出手机拍.  还有就是那碗热干面真的好辣 XD</p>
-<div class="group-picture"><div class="group-picture-row"><div class="group-picture-column"><img src="/20230211/20230215000508.jpg" class=""></div><div class="group-picture-column"><img src="/20230211/20230215000537.jpg" class=""></div></div></div>]]></content>
+<div class="group-picture"><div class="group-picture-row"><div class="group-picture-column"><img data-src="/20230211/20230215000508.avif" class=""></div><div class="group-picture-column"><img data-src="/20230211/20230215000537.avif" class=""></div></div></div>]]></content>
       <tags>
         <tag>日常, 杭州</tag>
       </tags>
   </entry>
   <entry>
-    <title>元宵</title>
-    <url>/20230205/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><div class="group-picture"><div class="group-picture-row"><div class="group-picture-column"><img src="/20230205/IMG_20230205_180247.jpg" class="" width="233"></div><div class="group-picture-column"><img src="/20230205/IMG_20230205_180253.jpg" class="" width="233"></div></div></div>
-<p>大姨厨艺真好</p>
-<p>西湖瞎逛 ╮(╯▽╰)╭  还好没去挤城市广场.</p>
-<div class="group-picture"><div class="group-picture-row"><div class="group-picture-column"><img src="/20230205/IMG_20230205_193145.jpg" class="" width="233"></div></div><div class="group-picture-row"><div class="group-picture-column"><img src="/20230205/IMG_20230205_194304.jpg" class="" width="233"></div><div class="group-picture-column"><img src="/20230205/IMG_20230205_194306.jpg" class="" width="233"></div><div class="group-picture-column"><img src="/20230205/IMG_20230205_194307.jpg" class="" width="233"></div></div><div class="group-picture-row"><div class="group-picture-column"><img src="/20230205/IMG_20230205_195010.jpg" class="" width="233"></div><div class="group-picture-column"><img src="/20230205/IMG_20230205_195707.jpg" class="" width="233"></div><div class="group-picture-column"><img src="/20230205/IMG_20230205_201512.jpg" class="" width="233"></div></div></div>]]></content>
+    <title>杭州大雪</title>
+    <url>/20221201/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><div class="group-picture"><div class="group-picture-row"><div class="group-picture-column"><img data-src="/20221201/IMG_20221201_082125.avif" class=""></div><div class="group-picture-column"><img data-src="/20221201/IMG_20221201_082708.avif" class=""></div><div class="group-picture-column"><img data-src="/20221201/IMG_20221201_083447.avif" class=""></div></div><div class="group-picture-row"><div class="group-picture-column"><img data-src="/20221201/IMG_20221201_083715.avif" class=""></div><div class="group-picture-column"><img data-src="/20221201/IMG_20221201_083716.avif" class=""></div><div class="group-picture-column"><img data-src="/20221201/IMG_20221201_085632.avif" class=""></div></div><div class="group-picture-row"><div class="group-picture-column"><img data-src="/20221201/IMG_20221201_085638.avif" class=""></div><div class="group-picture-column"><img data-src="/20221201/IMG_20221201_101049.avif" class=""></div></div></div>]]></content>
+      <tags>
+        <tag>日常,杭州</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>绍兴</title>
+    <url>/20221025/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>和聂游绍兴 , 船坐吐了 , 下次借绍兴身份证去 , 免票 .  手动狗头</p>
+<div class="group-picture"><div class="group-picture-row"><div class="group-picture-column"><img data-src="/20221025/IMG_20221025_102102.avif" class=""></div><div class="group-picture-column"><img data-src="/20221025/IMG_20221025_102104.avif" class=""></div><div class="group-picture-column"><img data-src="/20221025/IMG_20221025_102111.avif" class=""></div></div><div class="group-picture-row"><div class="group-picture-column"><img data-src="/20221025/IMG_20221025_102115.avif" class=""></div><div class="group-picture-column"><img data-src="/20221025/IMG_20221025_151618.avif" class=""></div><div class="group-picture-column"><img data-src="/20221025/IMG_20221025_151633.avif" class=""></div></div><div class="group-picture-row"><div class="group-picture-column"><img data-src="/20221025/IMG_20221025_151639.avif" class=""></div><div class="group-picture-column"><img data-src="/20221025/IMG_20221025_151818.avif" class=""></div><div class="group-picture-column"><img data-src="/20221025/IMG_20221025_151823.avif" class=""></div></div><div class="group-picture-row"><div class="group-picture-column"><img data-src="/20221025/IMG_20221025_151932.avif" class=""></div><div class="group-picture-column"><img data-src="/20221025/IMG_20221025_152655.avif" class=""></div><div class="group-picture-column"><img data-src="/20221025/IMG_20221025_152716.avif" class=""></div></div><div class="group-picture-row"><div class="group-picture-column"><img data-src="/20221025/IMG_20221025_153215.avif" class=""></div><div class="group-picture-column"><img data-src="/20221025/IMG_20221025_153456.avif" class=""></div><div class="group-picture-column"><img data-src="/20221025/IMG_20221025_153459.avif" class=""></div></div><div class="group-picture-row"><div class="group-picture-column"><img data-src="/20221025/IMG_20221025_153505.avif" class=""></div><div class="group-picture-column"><img data-src="/20221025/IMG_20221025_153508.avif" class=""></div><div class="group-picture-column"><img data-src="/20221025/IMG_20221025_153516.avif" class=""></div></div><div class="group-picture-row"><div class="group-picture-column"><img data-src="/20221025/IMG_20221025_155821.avif" class=""></div><div class="group-picture-column"><img data-src="/20221025/IMG_20221025_155824.avif" class=""></div><div class="group-picture-column"><img data-src="/20221025/IMG_20221025_162001.avif" class=""></div></div><div class="group-picture-row"><div class="group-picture-column"><img data-src="/20221025/IMG_20221025_162010.avif" class=""></div><div class="group-picture-column"><img data-src="/20221025/IMG_20221025_162013.avif" class=""></div><div class="group-picture-column"><img data-src="/20221025/IMG_20221025_162022.avif" class=""></div></div><div class="group-picture-row"><div class="group-picture-column"><img data-src="/20221025/IMG_20221025_162123.avif" class=""></div><div class="group-picture-column"><img data-src="/20221025/IMG_20221025_162140.avif" class=""></div><div class="group-picture-column"><img data-src="/20221025/IMG_20221025_162239.avif" class=""></div></div><div class="group-picture-row"><div class="group-picture-column"><img data-src="/20221025/IMG_20221025_162246.avif" class=""></div><div class="group-picture-column"><img data-src="/20221025/IMG_20221025_162337.avif" class=""></div><div class="group-picture-column"><img data-src="/20221025/IMG_20221025_162357.avif" class=""></div></div><div class="group-picture-row"><div class="group-picture-column"><img data-src="/20221025/IMG_20221025_162400.avif" class=""></div><div class="group-picture-column"><img data-src="/20221025/IMG_20221025_162413.avif" class=""></div><div class="group-picture-column"><img data-src="/20221025/IMG_20221025_162525.avif" class=""></div></div><div class="group-picture-row"><div class="group-picture-column"><img data-src="/20221025/IMG_20221025_162532.avif" class=""></div><div class="group-picture-column"><img data-src="/20221025/IMG_20221025_162737.avif" class=""></div><div class="group-picture-column"><img data-src="/20221025/IMG_20221025_162740.avif" class=""></div></div><div class="group-picture-row"><div class="group-picture-column"><img data-src="/20221025/IMG_20221025_162743.avif" class=""></div><div class="group-picture-column"><img data-src="/20221025/IMG_20221025_163008.avif" class=""></div><div class="group-picture-column"><img data-src="/20221025/IMG_20221025_163643.avif" class=""></div></div><div class="group-picture-row"><div class="group-picture-column"><img data-src="/20221025/IMG_20221025_163914.avif" class=""></div><div class="group-picture-column"><img data-src="/20221025/IMG_20221025_164015.avif" class=""></div><div class="group-picture-column"><img data-src="/20221025/IMG_20221025_164307.avif" class=""></div></div><div class="group-picture-row"><div class="group-picture-column"><img data-src="/20221025/IMG_20221025_164328.avif" class=""></div><div class="group-picture-column"><img data-src="/20221025/IMG_20221025_165129.avif" class=""></div><div class="group-picture-column"><img data-src="/20221025/IMG_20221025_165137.avif" class=""></div></div><div class="group-picture-row"><div class="group-picture-column"><img data-src="/20221025/IMG_20221025_165150.avif" class=""></div><div class="group-picture-column"><img data-src="/20221025/IMG_20221025_165154.avif" class=""></div><div class="group-picture-column"><img data-src="/20221025/IMG_20221025_165400.avif" class=""></div></div><div class="group-picture-row"><div class="group-picture-column"><img data-src="/20221025/IMG_20221025_165603.avif" class=""></div><div class="group-picture-column"><img data-src="/20221025/IMG_20221025_165708.avif" class=""></div><div class="group-picture-column"><img data-src="/20221025/IMG_20221025_174223.avif" class=""></div></div><div class="group-picture-row"><div class="group-picture-column"><img data-src="/20221025/IMG_20221025_183303.avif" class=""></div><div class="group-picture-column"><img data-src="/20221025/IMG_20221025_183306.avif" class=""></div><div class="group-picture-column"><img data-src="/20221025/IMG_20221025_183435.avif" class=""></div></div><div class="group-picture-row"><div class="group-picture-column"><img data-src="/20221025/IMG_20221025_183436.avif" class=""></div><div class="group-picture-column"><img data-src="/20221025/IMG_20221025_183622.avif" class=""></div><div class="group-picture-column"><img data-src="/20221025/IMG_20221025_190750.avif" class=""></div></div><div class="group-picture-row"><div class="group-picture-column"><img data-src="/20221025/IMG_20221025_191135.avif" class=""></div><div class="group-picture-column"><img data-src="/20221025/IMG_20221025_191450.avif" class=""></div><div class="group-picture-column"><img data-src="/20221025/IMG_20221025_191451.avif" class=""></div></div><div class="group-picture-row"><div class="group-picture-column"><img data-src="/20221025/IMG_20221025_191454.avif" class=""></div><div class="group-picture-column"><img data-src="/20221025/IMG_20221025_191456.avif" class=""></div><div class="group-picture-column"><img data-src="/20221025/IMG_20221025_192113.avif" class=""></div></div><div class="group-picture-row"><div class="group-picture-column"><img data-src="/20221025/IMG_20221025_192117.avif" class=""></div><div class="group-picture-column"><img data-src="/20221025/IMG_20221025_192149.avif" class=""></div><div class="group-picture-column"><img data-src="/20221025/IMG_20221025_192240.avif" class=""></div></div><div class="group-picture-row"><div class="group-picture-column"><img data-src="/20221025/IMG_20221025_192325.avif" class=""></div><div class="group-picture-column"><img data-src="/20221025/IMG_20221025_192331.avif" class=""></div></div></div>]]></content>
+      <tags>
+        <tag>日常,绍兴</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>西溪湿地</title>
+    <url>/20230212/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><div class="group-picture"><div class="group-picture-row"><div class="group-picture-column"><img data-src="/20230212/IMG_20230212_153834.avif" class=""></div><div class="group-picture-column"><img data-src="/20230212/IMG_20230212_155016.avif" class=""></div><div class="group-picture-column"><img data-src="/20230212/IMG_20230212_155022.avif" class=""></div></div><div class="group-picture-row"><div class="group-picture-column"><img data-src="/20230212/IMG_20230212_155738.avif" class=""></div><div class="group-picture-column"><img data-src="/20230212/IMG_20230212_160322.avif" class=""></div><div class="group-picture-column"><img data-src="/20230212/IMG_20230212_160326.avif" class=""></div></div><div class="group-picture-row"><div class="group-picture-column"><img data-src="/20230212/IMG_20230212_160402.avif" class=""></div><div class="group-picture-column"><img data-src="/20230212/IMG_20230212_160421.avif" class=""></div><div class="group-picture-column"><img data-src="/20230212/IMG_20230212_160452.avif" class=""></div></div><div class="group-picture-row"><div class="group-picture-column"><img data-src="/20230212/IMG_20230212_160607.avif" class=""></div><div class="group-picture-column"><img data-src="/20230212/IMG_20230212_160905.avif" class=""></div><div class="group-picture-column"><img data-src="/20230212/IMG_20230212_163137.avif" class=""></div></div><div class="group-picture-row"><div class="group-picture-column"><img data-src="/20230212/IMG_20230212_163233.avif" class=""></div><div class="group-picture-column"><img data-src="/20230212/IMG_20230212_163236.avif" class=""></div><div class="group-picture-column"><img data-src="/20230212/IMG_20230212_163311.avif" class=""></div></div><div class="group-picture-row"><div class="group-picture-column"><img data-src="/20230212/IMG_20230212_180655.avif" class=""></div></div></div>]]></content>
       <tags>
         <tag>日常, 杭州</tag>
       </tags>
@@ -197,12 +110,12 @@ md渲染器   比如代码渲染,空格渲染<br>
 <figure class="highlight cmd"><table><tr><td class="code"><pre><span class="line">npm uni hexo-generator-index</span><br><span class="line">npm install hexo-generator-index-pin-top --save</span><br></pre></td></tr></table></figure>
 <p>提供更好的 Markdown 渲染，主要有两点好处：脚注、MathJax。详情参考</p>
 
-        <div id="aplayer-uEMOhNGX" class="aplayer aplayer-tag-marker" style="margin-bottom: 20px;">
+        <div id="aplayer-VMYVVQak" class="aplayer aplayer-tag-marker" style="margin-bottom: 20px;">
             <pre class="aplayer-lrc-content"></pre>
         </div>
         <script>
           var ap = new APlayer({
-            element: document.getElementById("aplayer-uEMOhNGX"),
+            element: document.getElementById("aplayer-VMYVVQak"),
             narrow: false,
             autoplay: false,
             showlrc: false,
@@ -220,10 +133,10 @@ md渲染器   比如代码渲染,空格渲染<br>
 <p>当开启 Hexo 的 文章资源文件夹 功能时，可以将图片、音乐文件、歌词文件放入与文章对应的资源文件夹中，然后直接引用：</p>
 <p>npm uninstall hexo-renderer-marked<br>
 npm install hexo-renderer-pandoc</p>
-<div class="group-picture"><div class="group-picture-row"><div class="group-picture-column"><img data-src="/FirstUrlBlog/1.png" class="" width="233"></div><div class="group-picture-column"><img data-src="/FirstUrlBlog/1.png" class="" width="233"></div></div><div class="group-picture-row"><div class="group-picture-column"><img data-src="/FirstUrlBlog/1.png" class="" width="233"></div><div class="group-picture-column"><img data-src="/FirstUrlBlog/1.png" class="" width="233"></div><div class="group-picture-column"><img data-src="/FirstUrlBlog/1.png" class="" width="233"></div></div></div>
-<p>前面<img data-src="/FirstUrlBlog/1.png" class="" width="233">这个图片<br>
-<img data-src="1.PNG" alt=""></p>
-<!--![](FirstUrlBlog/1.PNG)  这个写法是从网页里找-->
+<div class="group-picture"><div class="group-picture-row"><div class="group-picture-column"><img data-src="/FirstUrlBlog/1.avif" class="" width="233"></div><div class="group-picture-column"><img data-src="/FirstUrlBlog/1.avif" class="" width="233"></div></div><div class="group-picture-row"><div class="group-picture-column"><img data-src="/FirstUrlBlog/1.avif" class="" width="233"></div><div class="group-picture-column"><img data-src="/FirstUrlBlog/1.avif" class="" width="233"></div><div class="group-picture-column"><img data-src="/FirstUrlBlog/1.avif" class="" width="233"></div></div></div>
+<p>前面<img data-src="/FirstUrlBlog/1.avif" class="" width="233">这个图片<br>
+<img data-src="1.avif" alt=""></p>
+<!--![](FirstUrlBlog/1.avif)  这个写法是从网页里找-->
 <p>npm uninstall hexo-renderer-marked<br>
 npm install hexo-renderer-pandoc</p>
 <p><a href="https://tding.top/archives/7e5b094d.html">https://tding.top/archives/7e5b094d.html</a> 性能优化<br>
@@ -237,35 +150,129 @@ npm install hexo-renderer-pandoc</p>
   <entry>
     <title>竹垟</title>
     <url>/20230124/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><div class="group-picture"><div class="group-picture-row"><div class="group-picture-column"><img src="/20230124/IMG_20230124_200852.jpg" class=""></div><div class="group-picture-column"><img src="/20230124/IMG_20230124_201819.jpg" class=""></div></div><div class="group-picture-row"><div class="group-picture-column"><img src="/20230124/IMG_20230124_201823.jpg" class=""></div><div class="group-picture-column"><img src="/20230124/IMG_20230125_125716.jpg" class=""></div></div><div class="group-picture-row"><div class="group-picture-column"><img src="/20230124/IMG_20230125_125719.jpg" class=""></div><div class="group-picture-column"><img src="/20230124/IMG_20230125_125724.jpg" class=""></div></div></div>]]></content>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><div class="group-picture"><div class="group-picture-row"><div class="group-picture-column"><img data-src="/20230124/IMG_20230124_200852.avif" class=""></div><div class="group-picture-column"><img data-src="/20230124/IMG_20230124_201819.avif" class=""></div></div><div class="group-picture-row"><div class="group-picture-column"><img data-src="/20230124/IMG_20230124_201823.avif" class=""></div><div class="group-picture-column"><img data-src="/20230124/IMG_20230125_125716.avif" class=""></div></div><div class="group-picture-row"><div class="group-picture-column"><img data-src="/20230124/IMG_20230125_125719.avif" class=""></div><div class="group-picture-column"><img data-src="/20230124/IMG_20230125_125724.avif" class=""></div></div></div>]]></content>
       <tags>
         <tag>日常, 龙泉</tag>
       </tags>
   </entry>
   <entry>
-    <title>杭州大雪</title>
-    <url>/20221201/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><div class="group-picture"><div class="group-picture-row"><div class="group-picture-column"><img src="/20221201/IMG_20221201_082125.jpg" class=""></div><div class="group-picture-column"><img src="/20221201/IMG_20221201_082708.jpg" class=""></div><div class="group-picture-column"><img src="/20221201/IMG_20221201_083447.jpg" class=""></div></div><div class="group-picture-row"><div class="group-picture-column"><img src="/20221201/IMG_20221201_083715.jpg" class=""></div><div class="group-picture-column"><img src="/20221201/IMG_20221201_083716.jpg" class=""></div><div class="group-picture-column"><img src="/20221201/IMG_20221201_085632.jpg" class=""></div></div><div class="group-picture-row"><div class="group-picture-column"><img src="/20221201/IMG_20221201_085638.jpg" class=""></div><div class="group-picture-column"><img src="/20221201/IMG_20221201_101049.jpg" class=""></div></div></div>]]></content>
+    <title>工作笔记</title>
+    <url>/20230216/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>#工作<br>
+看《unity动作游戏开发实战》<br>
+DNLSprite_Normal   line-&gt; 223<br>
+shader 写在  Sprite-DNL.shader</p>
+<p>配置Git Bash使用SSH协议3步：</p>
+<ol>
+<li>生成SSH Key：打开Git Bash，运行以下命令：</li>
+</ol>
+<p><code>$ ssh-keygen -t rsa -b 4096 -C &quot;your_email@example.com&quot;</code></p>
+<p>然后按提示输入密码和文件的存储路径。</p>
+<ol start="2">
+<li>添加SSH Key到ssh-agent：运行以下命令：</li>
+</ol>
+<p><code>$ eval &quot;$(ssh-agent -s)&quot; $ ssh-add ~/.ssh/id_rsa</code><br>
+然后Github那边添加SSH</p>
+<p>Hexo安装<br>
+安装nodejs，npm安装<br>
+npm install -g hexo-cli<br>
+就可以启动项目了<br>
+hexo s --debug  本地测试<br>
+hexo g -d 部署到github</p>
+<div style="position: relative; width: 100%; height: 0; padding-bottom: 75%;">
+<iframe src="//player.bilibili.com/player.html?aid=831027623&bvid=BV1J34y1P7FY&cid=1270320148&p=1&high_quality=1&danmaku=0" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" style="position: absolute; width: 100%; height: 100%; left: 0; top: 0;"> </iframe>
+</div>
+<p>#云际<br>
+21楼是律师事务所<br>
+9楼是婚纱的<br>
+安迪推荐了  鱼油  21金维他   善存 买多维</p>
+<p>UI界面资源脚本 CollectUISprites.cs<br>
+UIFrame-生成代码MonoScript到预制体的引用<br>
+IGameTools-&gt;TextureImportSetting 批量设置图片格式<br>
+GlobalNetMessage -&gt; Line 356 是新手引导相关<br>
+服务器5人<br>
+系统5人<br>
+战斗4人<br>
+引擎7~8人<br>
+自己写一个框架  包含AB包资源加载<br>
+Update轮询，对象池管理<br>
+Editor有专门的EditorPrefs存数据</p>
+<p>TMGeNode.PushCommand 压入命令   在update时候轮询再按需求执行<br>
+FB表格处理  NPOI读写xls + FlatBuffer序列化<br>
+Animation<br>
+BattleLogic<br>
+Framework_Recycle  FrameStack<br>
+UIFramework</p>
+<p>神陵武装<br>
+动物大联盟<br>
+勇闯地下城<br>
+街机三国<br>
+暗夜格斗<br>
+战斗法则<br>
+DNF Extractor 提取资源<br>
+#性能优化<br>
+数据Init之类的  都只是传入数据，而不执行Init方法。等该执行的时候才去执行<br>
+粒子转序列帧贴图播放<br>
+2D角色转RBG通道然后从key取色，分层  ，每个通道的颜色代表调色盘第几位，第0位必须是空颜色。 渲染是靠自己写shader和材质。<br>
+DNLAtlasElement里 rect去合图里截取方块，然后pivot记录这个方块在实际渲染的偏移。通过原图在旧的500x500的图的中心点偏移量获得。这个pivot对应Sprite.Create时的pivot<br>
+mat.SetVector(DNLSpriteShader.PROPERTYID_CHANNELMASK)</p>
+<p>图片打包是用 github -&gt; juj / RectangleBinPack<br>
+shadow是用原图渲染到地上，并且只有某几个部分有投影<br>
+重写unity的image UI 通过OnPopulateMesh 重新绘制mesh的形状<br>
+AStar 的OpenList用MinHeap  Heap是堆<br>
+AABB不可以旋转     OBB可以旋转<br>
+项目UI框架gameframework写的MVC   view 和frame分开<br>
+用数组模拟最大堆<br>
+用scriptObject存储数据，实际runtime转为二进制<br>
+DelayCaller.cs<br>
+乱世的UI框架<br>
+Unitask<br>
+TextAnimation<br>
+Animancer<br>
+Odin<br>
+状态机<br>
+自己写一些摄像机跟随代替pro camera 2d<br>
+使用BetterStreamingAsset读取streamingAsset资源<br>
+Spine动画的导入<br>
+按位运算<br>
+LittleEndian</p>
+<h2 id="LRU（Least-Recently-Used）最近最少使用算法">LRU（Least Recently Used）最近最少使用算法</h2>
+<p>思想：最近被使用過的資料，那麼將來被訪問的概率也多，最近沒有被訪問，那麼將來被訪問的概率也比較低。<br>
+如圖，P1到P7都有最後一次使用的時間，今天如果滿了，我們就淘汰最久沒被使用的，如圖的P7。<br>
+但這想法並不考慮頻率，所以會有問題，例如今天突然需要遍歷資料，那這個遍歷會將真正常用的資料淘汰出cache。<br>
+![[Pasted image 20230315165931.png]]</p>
+<p>c# LINQ</p>
+<ul>
+<li>Map,对应C#的Select</li>
+<li>Filter,对应C#的Where</li>
+<li>Fold,对应C#的Aggregate</li>
+<li>FlattMap 对应 SelectMany</li>
+</ul>
+<p>png alpha color clear</p>
+<figure class="highlight c#"><table><tr><td class="code"><pre><span class="line"><span class="keyword">using</span> UnityEngine;</span><br><span class="line"><span class="keyword">using</span> UnityEditor;</span><br><span class="line"></span><br><span class="line"><span class="keyword">public</span> <span class="keyword">class</span> <span class="title">PngAlphaClearColor</span> : <span class="title">EditorWindow</span></span><br><span class="line">&#123;</span><br><span class="line">    <span class="keyword">public</span> Texture2D texture2D;</span><br><span class="line"></span><br><span class="line">    [<span class="meta">MenuItem(<span class="string">&quot;Test/PngAlphaClearColor&quot;</span>)</span>]</span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title">ShowWindow</span>()</span></span><br><span class="line">    &#123;</span><br><span class="line">        EditorWindow.GetWindow(<span class="keyword">typeof</span>(PngAlphaClearColor));</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="function"><span class="keyword">private</span> <span class="keyword">void</span> <span class="title">OnGUI</span>()</span></span><br><span class="line">    &#123;</span><br><span class="line">        texture2D = EditorGUILayout.ObjectField(texture2D, <span class="keyword">typeof</span>(Texture2D), <span class="literal">false</span>) <span class="keyword">as</span> Texture2D;</span><br><span class="line">        <span class="keyword">if</span> (GUILayout.Button(<span class="string">&quot;Test&quot;</span>))</span><br><span class="line">        &#123;</span><br><span class="line">            Test();</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">void</span> <span class="title">Test</span>()</span></span><br><span class="line">    &#123;</span><br><span class="line">        <span class="built_in">string</span> path = AssetDatabase.GetAssetPath(texture2D);</span><br><span class="line">        TextureImporter ti = (TextureImporter)TextureImporter.GetAtPath(path);</span><br><span class="line">        ti.isReadable = <span class="literal">true</span>;</span><br><span class="line">        AssetDatabase.ImportAsset(path);</span><br><span class="line">        <span class="keyword">for</span> (<span class="built_in">int</span> i = <span class="number">0</span>; i &lt; texture2D.width; ++i)</span><br><span class="line">        &#123;</span><br><span class="line">            <span class="keyword">for</span> (<span class="built_in">int</span> j = <span class="number">0</span>; j &lt; texture2D.height; ++j)</span><br><span class="line">            &#123;</span><br><span class="line">                Color color = texture2D.GetPixel(i, j);</span><br><span class="line">                <span class="keyword">if</span> (color.a == <span class="number">0</span>)</span><br><span class="line">                &#123;</span><br><span class="line">                    texture2D.SetPixel(i, j, <span class="keyword">new</span> Color(<span class="number">0</span>, <span class="number">0</span>, <span class="number">0</span>, <span class="number">0</span>));</span><br><span class="line">                &#125;</span><br><span class="line">            &#125;</span><br><span class="line">        &#125;</span><br><span class="line"></span><br><span class="line">        System.IO.File.WriteAllBytes(path, texture2D.EncodeToPNG());</span><br><span class="line">        ti.isReadable = <span class="literal">false</span>;</span><br><span class="line">        AssetDatabase.ImportAsset(path);</span><br><span class="line">        AssetDatabase.Refresh();</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>]]></content>
       <tags>
-        <tag>日常,杭州</tag>
+        <tag>日常</tag>
+        <tag>杭州</tag>
+        <tag>程序</tag>
       </tags>
   </entry>
   <entry>
-    <title>动漫博物馆</title>
-    <url>/20221113/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>白马湖</p>
-<div class="group-picture"><div class="group-picture-row"><div class="group-picture-column"><img src="/20221113/IMG_20221113_133808.jpg" class=""></div><div class="group-picture-column"><img src="/20221113/IMG_20221113_133821.jpg" class=""></div><div class="group-picture-column"><img src="/20221113/IMG_20221113_134940.jpg" class=""></div></div><div class="group-picture-row"><div class="group-picture-column"><img src="/20221113/IMG_20221113_135020.jpg" class=""></div><div class="group-picture-column"><img src="/20221113/IMG_20221113_135132.jpg" class=""></div><div class="group-picture-column"><img src="/20221113/IMG_20221113_135136.jpg" class=""></div></div><div class="group-picture-row"><div class="group-picture-column"><img src="/20221113/IMG_20221113_135159.jpg" class=""></div><div class="group-picture-column"><img src="/20221113/IMG_20221113_135221.jpg" class=""></div><div class="group-picture-column"><img src="/20221113/IMG_20221113_140058.jpg" class=""></div></div><div class="group-picture-row"><div class="group-picture-column"><img src="/20221113/IMG_20221113_140106.jpg" class=""></div><div class="group-picture-column"><img src="/20221113/IMG_20221113_142338.jpg" class=""></div><div class="group-picture-column"><img src="/20221113/IMG_20221113_143900.jpg" class=""></div></div><div class="group-picture-row"><div class="group-picture-column"><img src="/20221113/IMG_20221113_172302.jpg" class=""></div></div></div>]]></content>
+    <title>柯桥古镇</title>
+    <url>/20230910/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><div id="dplayer2" class="dplayer hexo-tag-dplayer-mark" style="margin-bottom: 20px;"></div><script>(function(){var player = new DPlayer({"container":document.getElementById("dplayer2"),"theme":"#FADFA3","lang":"zh-cn","screenshot":true,"hotkey":true,"preload":"auto","volume":0.7,"mutex":true,"video":{"url":"/video/data/LowFramerate.mp4","pic":"/video/cover/Fountain.avif"}});window.dplayers||(window.dplayers=[]);window.dplayers.push(player);})()</script> 
+<p>为了看个喷泉可把某人给累坏了   XD</p>
+<div class="group-picture"><div class="group-picture-row"><div class="group-picture-column"><img data-src="/20230910/1.avif" class=""></div><div class="group-picture-column"><img data-src="/20230910/2.avif" class=""></div></div><div class="group-picture-row"><div class="group-picture-column"><img data-src="/20230910/3.avif" class=""></div><div class="group-picture-column"><img data-src="/20230910/4.avif" class=""></div></div></div>]]></content>
       <tags>
-        <tag>日常,杭州</tag>
+        <tag>绍兴</tag>
+        <tag>旅游</tag>
       </tags>
   </entry>
   <entry>
-    <title>绍兴</title>
-    <url>/20221025/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>和聂游绍兴 , 船坐吐了 , 下次借绍兴身份证去 , 免票 .  手动狗头</p>
-<div class="group-picture"><div class="group-picture-row"><div class="group-picture-column"><img src="/20221025/IMG_20221025_102102.jpg" class=""></div><div class="group-picture-column"><img src="/20221025/IMG_20221025_102104.jpg" class=""></div><div class="group-picture-column"><img src="/20221025/IMG_20221025_102111.jpg" class=""></div></div><div class="group-picture-row"><div class="group-picture-column"><img src="/20221025/IMG_20221025_102115.jpg" class=""></div><div class="group-picture-column"><img src="/20221025/IMG_20221025_151618.jpg" class=""></div><div class="group-picture-column"><img src="/20221025/IMG_20221025_151633.jpg" class=""></div></div><div class="group-picture-row"><div class="group-picture-column"><img src="/20221025/IMG_20221025_151639.jpg" class=""></div><div class="group-picture-column"><img src="/20221025/IMG_20221025_151818.jpg" class=""></div><div class="group-picture-column"><img src="/20221025/IMG_20221025_151823.jpg" class=""></div></div><div class="group-picture-row"><div class="group-picture-column"><img src="/20221025/IMG_20221025_151932.jpg" class=""></div><div class="group-picture-column"><img src="/20221025/IMG_20221025_152655.jpg" class=""></div><div class="group-picture-column"><img src="/20221025/IMG_20221025_152716.jpg" class=""></div></div><div class="group-picture-row"><div class="group-picture-column"><img src="/20221025/IMG_20221025_153215.jpg" class=""></div><div class="group-picture-column"><img src="/20221025/IMG_20221025_153456.jpg" class=""></div><div class="group-picture-column"><img src="/20221025/IMG_20221025_153459.jpg" class=""></div></div><div class="group-picture-row"><div class="group-picture-column"><img src="/20221025/IMG_20221025_153505.jpg" class=""></div><div class="group-picture-column"><img src="/20221025/IMG_20221025_153508.jpg" class=""></div><div class="group-picture-column"><img src="/20221025/IMG_20221025_153516.jpg" class=""></div></div><div class="group-picture-row"><div class="group-picture-column"><img src="/20221025/IMG_20221025_155821.jpg" class=""></div><div class="group-picture-column"><img src="/20221025/IMG_20221025_155824.jpg" class=""></div><div class="group-picture-column"><img src="/20221025/IMG_20221025_162001.jpg" class=""></div></div><div class="group-picture-row"><div class="group-picture-column"><img src="/20221025/IMG_20221025_162010.jpg" class=""></div><div class="group-picture-column"><img src="/20221025/IMG_20221025_162013.jpg" class=""></div><div class="group-picture-column"><img src="/20221025/IMG_20221025_162022.jpg" class=""></div></div><div class="group-picture-row"><div class="group-picture-column"><img src="/20221025/IMG_20221025_162123.jpg" class=""></div><div class="group-picture-column"><img src="/20221025/IMG_20221025_162140.jpg" class=""></div><div class="group-picture-column"><img src="/20221025/IMG_20221025_162239.jpg" class=""></div></div><div class="group-picture-row"><div class="group-picture-column"><img src="/20221025/IMG_20221025_162246.jpg" class=""></div><div class="group-picture-column"><img src="/20221025/IMG_20221025_162337.jpg" class=""></div><div class="group-picture-column"><img src="/20221025/IMG_20221025_162357.jpg" class=""></div></div><div class="group-picture-row"><div class="group-picture-column"><img src="/20221025/IMG_20221025_162400.jpg" class=""></div><div class="group-picture-column"><img src="/20221025/IMG_20221025_162413.jpg" class=""></div><div class="group-picture-column"><img src="/20221025/IMG_20221025_162525.jpg" class=""></div></div><div class="group-picture-row"><div class="group-picture-column"><img src="/20221025/IMG_20221025_162532.jpg" class=""></div><div class="group-picture-column"><img src="/20221025/IMG_20221025_162737.jpg" class=""></div><div class="group-picture-column"><img src="/20221025/IMG_20221025_162740.jpg" class=""></div></div><div class="group-picture-row"><div class="group-picture-column"><img src="/20221025/IMG_20221025_162743.jpg" class=""></div><div class="group-picture-column"><img src="/20221025/IMG_20221025_163008.jpg" class=""></div><div class="group-picture-column"><img src="/20221025/IMG_20221025_163643.jpg" class=""></div></div><div class="group-picture-row"><div class="group-picture-column"><img src="/20221025/IMG_20221025_163914.jpg" class=""></div><div class="group-picture-column"><img src="/20221025/IMG_20221025_164015.jpg" class=""></div><div class="group-picture-column"><img src="/20221025/IMG_20221025_164307.jpg" class=""></div></div><div class="group-picture-row"><div class="group-picture-column"><img src="/20221025/IMG_20221025_164328.jpg" class=""></div><div class="group-picture-column"><img src="/20221025/IMG_20221025_165129.jpg" class=""></div><div class="group-picture-column"><img src="/20221025/IMG_20221025_165137.jpg" class=""></div></div><div class="group-picture-row"><div class="group-picture-column"><img src="/20221025/IMG_20221025_165150.jpg" class=""></div><div class="group-picture-column"><img src="/20221025/IMG_20221025_165154.jpg" class=""></div><div class="group-picture-column"><img src="/20221025/IMG_20221025_165400.jpg" class=""></div></div><div class="group-picture-row"><div class="group-picture-column"><img src="/20221025/IMG_20221025_165603.jpg" class=""></div><div class="group-picture-column"><img src="/20221025/IMG_20221025_165708.jpg" class=""></div><div class="group-picture-column"><img src="/20221025/IMG_20221025_174223.jpg" class=""></div></div><div class="group-picture-row"><div class="group-picture-column"><img src="/20221025/IMG_20221025_183303.jpg" class=""></div><div class="group-picture-column"><img src="/20221025/IMG_20221025_183306.jpg" class=""></div><div class="group-picture-column"><img src="/20221025/IMG_20221025_183435.jpg" class=""></div></div><div class="group-picture-row"><div class="group-picture-column"><img src="/20221025/IMG_20221025_183436.jpg" class=""></div><div class="group-picture-column"><img src="/20221025/IMG_20221025_183622.jpg" class=""></div><div class="group-picture-column"><img src="/20221025/IMG_20221025_190750.jpg" class=""></div></div><div class="group-picture-row"><div class="group-picture-column"><img src="/20221025/IMG_20221025_191135.jpg" class=""></div><div class="group-picture-column"><img src="/20221025/IMG_20221025_191450.jpg" class=""></div><div class="group-picture-column"><img src="/20221025/IMG_20221025_191451.jpg" class=""></div></div><div class="group-picture-row"><div class="group-picture-column"><img src="/20221025/IMG_20221025_191454.jpg" class=""></div><div class="group-picture-column"><img src="/20221025/IMG_20221025_191456.jpg" class=""></div><div class="group-picture-column"><img src="/20221025/IMG_20221025_192113.jpg" class=""></div></div><div class="group-picture-row"><div class="group-picture-column"><img src="/20221025/IMG_20221025_192117.jpg" class=""></div><div class="group-picture-column"><img src="/20221025/IMG_20221025_192149.jpg" class=""></div><div class="group-picture-column"><img src="/20221025/IMG_20221025_192240.jpg" class=""></div></div><div class="group-picture-row"><div class="group-picture-column"><img src="/20221025/IMG_20221025_192325.jpg" class=""></div><div class="group-picture-column"><img src="/20221025/IMG_20221025_192331.jpg" class=""></div></div></div>]]></content>
+    <title>滨康小区</title>
+    <url>/20240325/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><div class="group-picture"><div class="group-picture-row"><div class="group-picture-column"><img data-src="/20240325/IMG_20230124_200852.avif" class=""></div><div class="group-picture-column"><img data-src="/20240325/IMG_20230124_201819.avif" class=""></div></div><div class="group-picture-row"><div class="group-picture-column"><img data-src="/20240325/IMG_20230124_201823.avif" class=""></div><div class="group-picture-column"><img data-src="/20240325/IMG_20230125_125716.avif" class=""></div></div><div class="group-picture-row"><div class="group-picture-column"><img data-src="/20240325/IMG_20230125_125719.avif" class=""></div><div class="group-picture-column"><img data-src="/20240325/2.avif" class=""></div></div></div>]]></content>
       <tags>
-        <tag>日常,绍兴</tag>
+        <tag>日常</tag>
       </tags>
   </entry>
 </search>
